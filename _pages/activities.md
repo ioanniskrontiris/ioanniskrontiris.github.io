@@ -11,13 +11,13 @@ nav_order: 4
 
 *   Panel Moderator - [ITS European Congress](https://itseuropeancongress.com/), Panel on "Roadmap towards adoption of dynamic trust assurances for sustainability in CCAM", 23 May 2023    
 *   Co-organizer - Dagstuhl [Seminar 23242](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/23242): "Privacy Protection of Automated and Self-Driving Vehicles", 11-16 June 2023.
-*   Co-organizer - Dagstuhl [Seminar](https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=22042)  [22042](https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=22042): "Privacy Protection of Automated and Self-Driving Vehicles", 23-28 January 2022.  
+*   Co-organizer - Dagstuhl [Seminar 22042](https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=22042): "Privacy Protection of Automated and Self-Driving Vehicles", 23-28 January 2022.  
 *   Co-organizer - Dagstuhl [Seminar 13312](http://www.dagstuhl.de/en/program/calendar/semhp/?semnr=13312): "My Life, Shared - Trust and Privacy in the Age of Ubiquitous Experience Sharing", 28 Jul. - 02 Aug. 2013.
 *   Coordinator - Dagstuhl Perspectives Workshop 11061: [Online Privacy: Towards Informational Self-Determination on the Internet](http://www.dagstuhl.de/en/program/calendar/semhp/?semnr=11061), 6-11 February, 2011.
 
 ### Talks and Panels
 
-*   Presentation "CONNECT - Continuous and Efficient Cooperative Trust Management for Resilient CCAM  ", [RTR Conference](https://rtrconference.eu/): Results from road transport research, Brussels, Belgium, 5-7 February 2024
+*   Presentation "CONNECT - Continuous and Efficient Cooperative Trust Management for Resilient CCAM  ", [RTR Conference: Results from road transport research](https://rtrconference.eu/), Brussels, Belgium, 5-7 February 2024
 *   Presentation "CONNECT - Continuous and Efficient Cooperative Trust Management for Resilient CCAM", 5GAA Community Building Event, Tokyo, Japan, 29 January 2024    
 *   Panel Moderator - [ITS European Congress](https://itseuropeancongress.com/), Panel on "Roadmap towards adoption of dynamic trust assurances for sustainability in CCAM", 23 May 2023
 *   Invited Presentation, together with K. Grammenou, "Ethical and Technical Challenges in the area of Artificial Intelligence, Data Protection and its impact on the Job Market", Career Month of Greek Pharmaceutical Students’ Federation, November 21, 2021   
