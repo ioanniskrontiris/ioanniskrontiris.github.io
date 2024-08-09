@@ -74,10 +74,10 @@ nav_order: 4
 *   Trust, Privacy & Security Symposium in International Wireless Communications and Mobile Computing Conference ([IWCMC 2024](https://iwcmc.net/2024/Symposia.php)),  Ayia Napa, Cyprus, May 27 - 31, 2024
 *   21st [escar Europe](https://www.escar.info/escar-europe.html), November 15 to 16, 2023, Hamburg, Germany
 *   Trust, Privacy & Security Symposium in International Wireless Communications and Mobile Computing Conference ([IWCMC 2023](http://iwcmc.org/2023/)), Marrakesh, Morocco, 19 - 23 June 2023  
-*   4th Location Privacy Workshop ([LPW 2022](http://security.ucc.ie/lpw22/)) at IEEE Euro S&P - University of Genoa/CINI, Genoa, Italy, June 10, 2022  
+*   4th Location Privacy Workshop (LPW 2022) at IEEE Euro S&P - University of Genoa/CINI, Genoa, Italy, June 10, 2022  
 *   Trust, Privacy & Security Symposium in International Wireless Communications and Mobile Computing Conference ([IWCMC 2022](https://iwcmc.org/2022/)), May 30 - June 3, 2022  
 *   The 3rd Workshop on Cyber-Security Arms Race ([CYSARM 2021](https://www.cysarm.org/)) 19 November, 2021, co-located with the [ACM CCS 2021](https://www.sigsac.org/ccs/CCS2021/), South Korea
-*   The 3rd Location Privacy Workshop ([LPW 2021](https://www.ares-conference.eu/workshops/lpw-2021/))  to be held in conjunction with the 16th International Conference [ARES 2021,](https://www.ares-conference.eu/) Vienna, Austria - August 17-20, 2021
+*   The 3rd Location Privacy Workshop (LPW 2021)  to be held in conjunction with the 16th International Conference [ARES 2021,](https://www.ares-conference.eu/) Vienna, Austria - August 17-20, 2021
 *   [SICHERHEIT 2020](https://www.uni-goettingen.de/de/603140.html) - Schutz und Zuverlässigkeit, Göttingen, Germany, 17-20 March 2020
 *   The 2rd Workshop on Cyber-Security Arms Race ([CYSARM 2020](https://cysarm.org/2020/)) 13 November, 2020, co-located with the [ACM CCS 2020](https://www.sigsac.org/ccs/CCS2020/index.html), virtual
 *   Location Privacy Workshop ([LPW 2020](http://security.ucc.ie/lpw20/))  to be held in conjunction with the 15th International Conference [ARES 2020,](https://www.ares-conference.eu/) University College Dublin, Ireland - August 25-28, 2020
@@ -107,7 +107,7 @@ nav_order: 4
 *   [ENISA/EC Annual Privacy Forum 2014](http://privacyforum.eu/) - Closing the loop from research to policy, Athens, 20-21 May 2014
 *   Sicherheit: Schutz und Zuverlässigkeit ([GI SICHERHEIT 2014](http://sicherheit2014.sba-research.org/)), Vienna, Austria, 19-21 March 2014
 *   [IFIP Summer School 2013](http://www.pilab.nl/ifip-summerschool-2013/index.html) - The 8th International IFIP Summer School on Privacy and Identity Management for Emerging Services and Technologies, Nijmegen, the Netherlands, 17-21 June 2013
-*   The 28th [IFIP TC-11 SEC 2013](http://www.sec2013.org/) International Information Security and Privacy Conference, Auckland, New Zealand, 8-10 July 2013
+*   The 28th IFIP TC-11 SEC 2013 International Information Security and Privacy Conference, Auckland, New Zealand, 8-10 July 2013
 *   The Eighth International Conference on P2P, Parallel, Grid, Cloud and Internet Computing (3PGCIC 2013), Security Track, Compiegne, France, 28-30 October 2013
 *   The Second International Workshop on Resilience and IT-Risk in Social Infrastructures ([RISI 2013](http://www.ares-conference.eu/conf/index.php?option=com_content&view=article&id=52&Itemid=90)), Regensburg, Germany, 2-6 September 2013
 *   The 11th Smart Card Research and Advanced Application Conference ([CARDIS 2012](http://cardis.iaik.tugraz.at/cardis2012/index.htm)), Graz, Austria, 28-30 November 2012
@@ -118,11 +118,11 @@ nav_order: 4
 *   The 14th International Symposium on Stabilization, Safety, and Security of Distributed Systems ([SSS 2012](http://www.cs.uwaterloo.ca/conferences/sss2012/)) - Safety and Security Track, Toronto, Canada, 24-27 September 2012
 *   The 1st International Workshop on Cybersecurity of Online Social Networks ([CSOSN 2012](https://sites.google.com/site/csosn2012/)), Istanbul, Turkey, 26-29 August 2012
 *   The 1st International Conference on Sensor Networks ([SENSORNETS 2012](http://www.sensornets.org/Home.aspx)), Rome, Italy, 24-26 February 2012
-*   IEEE Global Communications Conference (IEEE GLOBECOM 2011) second Workshop on Ubiquitous Computing and Networks ([UbiCoNet 2011](http://turing.uao.edu.co/UbiCoNet2011/)), Houston, TX, 9 December 2011
-*   The 8th IEEE International Conference on Mobile Ad-hoc and Sensor Systems ([IEEE MASS 2011](http://mass2011.upv.es/)), Valencia, Spain, 17-22 October 2011
+*   IEEE Global Communications Conference (IEEE GLOBECOM 2011) second Workshop on Ubiquitous Computing and Networks ([UbiCoNet 2011](https://globecom2011.ieee-globecom.org/index.html)), Houston, TX, 9 December 2011
+*   The 8th IEEE International Conference on Mobile Ad-hoc and Sensor Systems ([IEEE MASS 2011](http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=12344&copyownerid=7395)), Valencia, Spain, 17-22 October 2011
 *   IFIP [SEC 2011](http://www.sec2011.org/) - Future Challenges in Security and Privacy for Academia and Industry, Lucerne, Switzerland, 7-9 June 2011
 *   The 4th International Conference on Mobile Ubiquitous Computing, Systems, Services and Technologies ([UBICOMM 2010](http://www.iaria.org/conferences2010/UBICOMM10.html)), Florence, Italy, 25-30 October 2010
-*   Sicherheit, Schutz und Zuverlssigkeit ([SICHERHEIT 2010](http://www.sicherheit2010.de/)), Berlin, Germany, 5-7 October 2010
+*   Sicherheit, Schutz und Zuverlssigkeit (SICHERHEIT 2010), Berlin, Germany, 5-7 October 2010
 *   The 5th International ICST Conference on Security and Privacy in Communication Networks ([SECURECOMM '09](http://www.securecomm.org/)), Athens, Greece, 14-18 September 2009
 *   The 2009 International Conference on Wireless Networks ([ICWN '09](http://www.world-academy-of-science.org/worldcomp09/ws/conferences/icwn09)), Las Vegas, Nevada, USA, 13-16 July 2009
 *   The Third International Conference on Mobile Ubiquitous Computing, Systems, Services and Technologies ([UBICOMM '09](http://www.iaria.org/conferences2009/UBICOMM09.html)), Sliema, Malta, 11-16 October 2009
