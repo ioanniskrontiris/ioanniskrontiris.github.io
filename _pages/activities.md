@@ -26,7 +26,7 @@ nav_order: 4
 *   Panel Presentation, "Technologies for sharing life experiences on the go", [ICT 2015](https://ec.europa.eu/digital-agenda/en/ict2015-innovate-connect-transform-lisbon-20-22-october-2015), Lisbon, 21 October 2015 
 *   Panel Presentation, "Internet of Things, Data Protection and Security; What are the Legal Challenges and How to Overcome Them?," [IAPP Europe Data Protection Congress 2014](https://privacyassociation.org/conference/iapp-europe-data-protection-congress-2014/), Brussels, 18-20 November 2014
 *   Invited Presentation, "Trust and Privacy in Mobile Experience Sharing - Future Challenges and Avenues for Research", [National Institute of Informatics (NII)](http://www.nii.ac.jp/en/), 9 June 2014, Tokyo, Japan
-*   Panel Presentation, "Trustworthy Infrastructure for Personal Data Management", [Digital Enlightenment Forum 2013](http://www.digitalenlightenment.org/event/digital-enlightenment-forum-2013), 18-20 September 2013, Brussels, Belgium
+*   Panel Presentation, "Trustworthy Infrastructure for Personal Data Management", [Digital Enlightenment Forum 2013](https://www.digitalenlightenment.org/), 18-20 September 2013, Brussels, Belgium
 *   Presentation, "The ABC4Trust Architecture - Making Privacy-ABCs Deployable and Interoperable", [Cyber Security and Privacy EU Forum 2013](http://www.cspforum.eu/2013), Brussels 18-19 April 2013
 *   Panel Presentation, "Trust Frameworks: Are We Being Misdirected By The 3-Party Model?", [RSA Conference 2013](http://www.rsaconference.com/events/us13), February 25 - March 1, San Francisco
 *   Panel Presentation on EU Digital Agenda (GINI-SA Roundtable), [iSSE 2012](http://www.isse.eu.com/), 23-24 October 2012, Brussels
@@ -50,7 +50,7 @@ nav_order: 4
 *   Chair of [IFIP WG 11.2](http://wg112.ifiptc11.org/) \- Pervasive Systems Security (November 2012 - June 2014).
 *   TPC Co-chair - International Conference on Privacy and Security in Mobile Systems ([PRISMS 2013](http://www.gws2013.org/prisms/)), 24-27 June 2013, Atlantic City, NJ, USA.
 *   TPC Co-chair - 4th International ICST Conference on Security and Privacy in Mobile Information and Communication Systems ([MobiSec 2012](http://mobisec.org/2012/show/org-com)), 25 June 2012, Frankfurt, Germany.
-*   Track Co-Chair - The 6th Mediterranean Conference on Information Systems ([MCSI 2011](http://www.mcis2011.org/)), Cyprus, 3-5 September, 2011.
+*   Track Co-Chair - The 6th Mediterranean Conference on Information Systems ([MCSI 2011](http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=15320)), Cyprus, 3-5 September, 2011.
 
 #### Advisory and Volunteering Activities  
 
