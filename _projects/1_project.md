@@ -40,8 +40,8 @@ PRIVE project has implemented and integrated anonymous credentials in a real-wor
 
 The integration of selective disclosure within [European Digital Credentials for Learning (EDC)]([https://](https://europass.europa.eu/en/stakeholders/european-digital-credentials)) allows learners to present only the necessary credentials to various stakeholders, such as potential employers or other educational institutions, without revealing their entire educational history. In this work, we take the specific example of job application process. In this context, selective disclosure becomes a powerful tool for enabling blind recruitment, which aims to reduce biases in hiring by concealing certain applicant attributes that could lead to discrimination. For example, the National Bureau of Economic Research (NBER) has shown that revealing age information during the recruitment process can lead to significant age discrimination. In a study comparing age-blind and non-age-blind hiring procedures, it was found that age-blind procedures resulted in higher interview rates for older applicants, although the job offer rates remained lower once the age was revealed during in-person interviews~\cite{neumark2024age}. This evidence underscores the need for mechanisms that allow job applicants to hide sensitive attributes such as age, thereby promoting fairer hiring practices.
 
-![Alt text](/assets/img/PRIVEUseCase.png "a title")
-
+![Alt text](/assets/img/PRIVEUseCase.png "a title" =250x)
+<img src="/assets/img/PRIVEUseCase.png" width="200">
 
 ## User Acceptance of Selective Disclosure in EUDI  
 
