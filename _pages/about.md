@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am currently working as Senior Research Engineer at the [European Research Center](http://www.huawei.eu/research-and-innovation) of Huawei in Munich, Germany.  
+I am currently working as Senior Research Engineer at the [European Research Center](http://www.huawei.eu/research-and-innovation) of Huawei in Munich, Germany.   
 
 I hold a Ph.D. Degree in Computer Science from [University of Mannheim](http://www.uni-mannheim.de/1/english/) in Germany, and a M.Sc. Degree in Information Technology from [Carnegie Mellon University](http://www.ini.cmu.edu/) in USA.  
 An overview of my current and past positions:
