@@ -16,16 +16,30 @@ Anonymous credentials enable selective disclosure. The user may choose to reveal
 
 ## The problem statement 
 
-However this is not enough. How can someone be sure that the verifiable presentation of credential attributes really belong to the claimed entity? We need to ensure that credentials and (private) keys can only become available to this specific Holder as the actual owner of the issued Wallet credentials. That means the level of control and credential management assurance relies solely on possessing and controlling the private key, which in current designs is a software-based key. However, the use of a software keystore introduces many security risks and raises trustworthiness issues. 
+PRIVE addresses a challenge that has been left unsolved: Design a solution that offers at the same time: 
+* selective disclosure with strong unlinkability properties  
+* and guarantees LoA "high", which means satisfy additional properties according to [ISO 29115]([https://](https://www.iso.org/standard/45138.html)) and the [European Digital Identity Wallet Architecture and Reference Framework]([https://](https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/blob/main/docs/arf.md)): Holder Binding, Device Binding and Wallet Correcness
+
+**User Binding:** How can someone be sure that the verifiable presentation of credential attributes really belong to the claimed entity? We need to ensure that credentials and (private) keys can only become available to this specific Holder as the actual owner of the issued Wallet credentials. That means the level of control and credential management assurance relies solely on possessing and controlling the private key, which in current designs is a software-based key. However, the use of a software keystore introduces many security risks and raises trustworthiness issues. 
 
 One of the necessary measures to solve such security gaps, is to isolate the keys from the Holder while still being stored in the user’s domain. There are several types of isolation defined in the literature that can be achieved through the incorporation of trusted computing technologies, i.e., [Hardware Secure Module (HSM)]([https://](https://en.wikipedia.org/wiki/Hardware_security_module)), [Trusted Platform Module (TPM)]([https://](https://en.wikipedia.org/wiki/Trusted_Platform_Module)), or [Trusted Execution Environment (TEE)]([https://](https://en.wikipedia.org/wiki/Trusted_execution_environment)). All such trusted anchors provide reliable, tamper-evident, and secure processing units (including support for crypto operations, key storage, and authentication) that offer a trustworthy environment for executing applications
 
-And still, this is not enough. What is still missing is the binding of identity data to the Holder (Holder Binding). This binding is based on a unique identifier representing the Holder, i.e., a secret key. One way to have high confidence is to make sure that the secret key is bound to the Wallet managing the identity data. For instance, DIF defines this property as Device Binding, that is, “a building block that enables a differential credential security model by anchoring a hardware-generated key (e.g., TPM Key) to the credential.”
+**Device Binding:** And still, this is not enough. What is still missing is the binding of identity data to the Holder (Holder Binding). This binding is based on a unique identifier representing the Holder, i.e., a secret key. One way to have high confidence is to make sure that the secret key is bound to the Wallet managing the identity data. For instance, DIF defines this property as Device Binding, that is, “a building block that enables a differential credential security model by anchoring a hardware-generated key (e.g., TPM Key) to the credential.”
+
+PRIVE solves this problem by making sure that the key stored in the secure element cannot be used unless it is proven that the wallet’s software has not been tampered with or altered in any unauthorized manner. This involves verifying that the wallet's software has not been modified since it was last validated by a wallet certification authority. The integrity check might include verifying cryptographic hashes of the wallet software against known good values. 
 
 ## Cryptographic solution: the DOOR protocol
-is the first to propose a protocol leveraging an enhanced variant of Direct Anonymous Attestation (DAA) [12] where each one of the attributes can be represented as a key, bound to the Holder’s unique identifier, which in turn is bound to the underlying trusted component. This allows the user to create privacy-preserving attribute claims (disclosing only those at- tributes needed to be checked against service access control policies) with strong trust guarantees on the correctness and origin of the attributes.
 
-DOOR proposes an enhanced variant of an anonymous signature scheme, namely Attribute-based DAA (DAA-A) [13], to achieve this: DAA-A is a strong privacy- preserving authentication scheme that enables the construction of VPs with selective disclosure through the representation of attributes as keys, hence, enabling the encoding and sharing of complex structures as key hierarchies. To overcome the current limitation of traditional crypto schemes that do not consider VC/VP linkability issues leading to Holder profil- ing, we have designed an enhanced variant of DAA-A with “credential blinding” capabilities.
+<img src="/assets/img/EUDIselectivedisclosure.png" width="800">
+
+PRIVE has extended DAA-A to create a new cryptographic protocol (called DOOR) that satisfies the above requirements of user binding and device binding. DAA-A is a strong privacy-preserving authentication scheme that supports the construction of Verifiable Presentations with selective disclosure through the encoding of
+each attributes as a seperate key.  The authenticity of the hidden attributes is proven by the integrated zero-knowledge (ZK) proofs.
+ 
+PRIVE has added an extra layers of security on top of DAA-A by constructing policy regulations to govern the usage of the DAA Key when signing attribute claims.  
+
+* One such policy ensures the binding of the DAA Key to the Holder's authenticated Wallet (Def.~\ref{def:devic-binding}), which in turn enables the binding of the issued identity data to the Holder as the intended recipient (Def.~\ref{def:holder-binding}). This is done by the VC Issuer through binding issued attributes to the anonymized part of the DAA credential.  
+* An additional policy binds the use of the DAA Key with the configuration of the wallet, so that it can be used if and only if the Wallet software integrity has not been altered in an unauthenticated manner. 
+
 
 ## Implementation: The Trusted Component (TC) Bridge
 
@@ -79,6 +93,4 @@ The user trial for the PRIVÉ project involved recruiting a diverse group of par
 The PRIVÉ project utilized the Technology Acceptance Model (TAM) as the foundational framework for collecting feedback and analyzing user adoption factors. The TAM model had to be extended to capture how much different aspects of trust affect their decision to adopt the technology. 
 
 
-## Other Digital Signature Schemes Compatible with Anonymous Credentials
-BBS/BBS+ 
 
