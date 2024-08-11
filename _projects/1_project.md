@@ -10,7 +10,7 @@ related_publications: 10538525
 
 [PRIVÉ](https://trustchain.ngi.eu/prive/) was funded as a sub-grantee of [TrustChain](https://trustchain.ngi.eu/) (Open Call 1 – Decentralised Digital Identity). TrustChain is part of the European Commission’s Next Generation Internet (NGI) initiative. 
 
-The project took place during the period October 2023 - April 2024 and it was a collaborative effort involving two partners: [UBITECH Ltd](www.ubitech.eu) and [Homo Digitalis](https://homodigitalis.gr/en/).
+The project took place during the period October 2023 - April 2024 and it was a collaborative effort involving two partners: [UBITECH Ltd](https://www.ubitech.eu) and [Homo Digitalis](https://homodigitalis.gr/en/).
 
 PRIVÉ designs and demonstrates a solution that uses anonymous credentials in [EU Digital Identity Wallet (EUDI)](https://ec.europa.eu/digital-building-blocks/sites/display/EUDIGITALIDENTITYWALLET/EU+Digital+Identity+Wallet+Home). Through this cryptographic mechanism, EUDI achieves secure and privacy-preserving authentication and identification. 
 
