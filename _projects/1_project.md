@@ -8,11 +8,11 @@ category: work
 related_publications: 10538525
 ---
 
-[PRIVÉ]([https://](https://trustchain.ngi.eu/prive/)) was funded as a sub-grantee of [TrustChain]([https://](https://trustchain.ngi.eu/)) (Open Call 1 – Decentralised Digital Identity). TrustChain is part of the European Commission’s Next Generation Internet (NGI) initiative. 
+[PRIVÉ](https://trustchain.ngi.eu/prive/) was funded as a sub-grantee of [TrustChain](https://trustchain.ngi.eu/) (Open Call 1 – Decentralised Digital Identity). TrustChain is part of the European Commission’s Next Generation Internet (NGI) initiative. 
 
-The project took place during the period October 2023 - April 2024 and it was a collaborative effort involving two partners: [UBITECH Ltd](www.ubitech.eu) and [Homo Digitalis]([https://](https://homodigitalis.gr/en/)).
+The project took place during the period October 2023 - April 2024 and it was a collaborative effort involving two partners: [UBITECH Ltd](www.ubitech.eu) and [Homo Digitalis](https://homodigitalis.gr/en/).
 
-PRIVÉ designs and demonstrates a solution that uses anonymous credentials in [EU Digital Identity Wallet (EUDI)]([https://](https://ec.europa.eu/digital-building-blocks/sites/display/EUDIGITALIDENTITYWALLET/EU+Digital+Identity+Wallet+Home)). Through this cryptographic mechanism, EUDI achieves secure and privacy-preserving authentication and identification. 
+PRIVÉ designs and demonstrates a solution that uses anonymous credentials in [EU Digital Identity Wallet (EUDI)](https://ec.europa.eu/digital-building-blocks/sites/display/EUDIGITALIDENTITYWALLET/EU+Digital+Identity+Wallet+Home). Through this cryptographic mechanism, EUDI achieves secure and privacy-preserving authentication and identification. 
 
 Anonymous credentials enable selective disclosure. The user may choose to reveal a subset of his credential attributes, or nothing at all other than the fact that his attributes satisfy a given policy. The user then convinces the verifier, via a zero-knowledge proof, of the authenticity of the disclosed information.
 
@@ -20,7 +20,7 @@ Anonymous credentials enable selective disclosure. The user may choose to reveal
 
 PRIVÉ addresses a challenge that has been left unsolved: Design a solution that offers at the same time: 
 * selective disclosure with strong unlinkability properties  
-* and guarantees LoA "high", which means satisfy additional properties according to [ISO 29115]([https://](https://www.iso.org/standard/45138.html)) and the [European Digital Identity Wallet Architecture and Reference Framework]([https://](https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/blob/main/docs/arf.md)): Holder Binding, Device Binding and Wallet Correcness
+* and guarantees LoA "high", which means satisfy additional properties according to [ISO 29115](https://www.iso.org/standard/45138.html) and the [European Digital Identity Wallet Architecture and Reference Framework](https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/blob/main/docs/arf.md): Holder Binding, Device Binding and Wallet Correcness
 
 **User Binding:** How can someone be sure that the verifiable presentation of credential attributes really belong to the claimed entity? We need to ensure that credentials and (private) keys can only become available to this specific Holder as the actual owner of the issued Wallet credentials. That means the level of control and credential management assurance relies solely on possessing and controlling the private key, which in current designs is a software-based key. However, the use of a software keystore introduces many security risks and raises trustworthiness issues. 
 
