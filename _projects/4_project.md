@@ -5,7 +5,7 @@ description: another without an image
 img: abc4trust.png
 importance: 2
 category: work
-related_publications: 10538525
+related_publications: 10538525, apf
 ---
 
 Attribute-based Credentials for Trust (ABC4Trust) was an EU-funded project from 2010–2015 that defined a common, unified architecture and delivered open reference implementations of Anonymous Credential systems. Its consortium includes both Microsoft and IBM, and ABC4Trust integrates both U-Prove and Idemix into its architecture. It also included the two pilot projects in Patras, Greece and Söderhamn, Sweden. ABC4Trust promoted collaborations between the big players and accelerated advances in the field of Anonymous Credentials. Its deliverables can be found here, and its Java source code is available in this repository.
