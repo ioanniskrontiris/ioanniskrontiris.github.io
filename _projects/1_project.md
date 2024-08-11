@@ -1,22 +1,24 @@
 ---
 layout: page
 title: TrustChain
-description: with background image
+description: Achieving Higher Level of Assurance in Privacy Preserving Identity Wallets
 img: assets/img/EUDIselectivedisclosure.png
 importance: 1
 category: work
 related_publications: 10538525
 ---
 
-[PRIVE]([https://](https://trustchain.ngi.eu/prive/)) was funded as a sub-grantee of [TrustChain]([https://](https://trustchain.ngi.eu/)) (Open Call 1 – Decentralised Digital Identity) during the period October 2023 - April 2024. TrustChain is part of the European Commission’s Next Generation Internet (NGI) initiative. 
+[PRIVÉ]([https://](https://trustchain.ngi.eu/prive/)) was funded as a sub-grantee of [TrustChain]([https://](https://trustchain.ngi.eu/)) (Open Call 1 – Decentralised Digital Identity) during the period October 2023 - April 2024. TrustChain is part of the European Commission’s Next Generation Internet (NGI) initiative. 
 
-PRIVE designs and demonstrates a solution that uses anonymous credentials in [EU Digital Identity Wallet (EUDI)]([https://](https://ec.europa.eu/digital-building-blocks/sites/display/EUDIGITALIDENTITYWALLET/EU+Digital+Identity+Wallet+Home)). Through this cryptographic mechanism, EUDI achieves secure and privacy-preserving authentication and identification. 
+he PRIVÉ project is a collaborative effort involving two key partners: [UBITECH Ltd](www.ubitech.eu) and [Homo Digitalis]([https://](https://homodigitalis.gr/en/))
+
+PRIVÉ designs and demonstrates a solution that uses anonymous credentials in [EU Digital Identity Wallet (EUDI)]([https://](https://ec.europa.eu/digital-building-blocks/sites/display/EUDIGITALIDENTITYWALLET/EU+Digital+Identity+Wallet+Home)). Through this cryptographic mechanism, EUDI achieves secure and privacy-preserving authentication and identification. 
 
 Anonymous credentials enable selective disclosure. The user may choose to reveal a subset of his credential attributes, or nothing at all other than the fact that his attributes satisfy a given policy. The user then convinces the verifier, via a zero-knowledge proof, of the authenticity of the disclosed information.
 
 ## The problem statement 
 
-PRIVE addresses a challenge that has been left unsolved: Design a solution that offers at the same time: 
+PRIVÉ addresses a challenge that has been left unsolved: Design a solution that offers at the same time: 
 * selective disclosure with strong unlinkability properties  
 * and guarantees LoA "high", which means satisfy additional properties according to [ISO 29115]([https://](https://www.iso.org/standard/45138.html)) and the [European Digital Identity Wallet Architecture and Reference Framework]([https://](https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/blob/main/docs/arf.md)): Holder Binding, Device Binding and Wallet Correcness
 
@@ -26,16 +28,16 @@ One of the necessary measures to solve such security gaps, is to isolate the key
 
 **Device Binding:** And still, this is not enough. What is still missing is the binding of identity data to the Holder (Holder Binding). This binding is based on a unique identifier representing the Holder, i.e., a secret key. One way to have high confidence is to make sure that the secret key is bound to the Wallet managing the identity data. For instance, DIF defines this property as Device Binding, that is, “a building block that enables a differential credential security model by anchoring a hardware-generated key (e.g., TPM Key) to the credential.”
 
-PRIVE solves this problem by making sure that the key stored in the secure element cannot be used unless it is proven that the wallet’s software has not been tampered with or altered in any unauthorized manner. This involves verifying that the wallet's software has not been modified since it was last validated by a wallet certification authority. The integrity check might include verifying cryptographic hashes of the wallet software against known good values. 
+PRIVÉ solves this problem by making sure that the key stored in the secure element cannot be used unless it is proven that the wallet’s software has not been tampered with or altered in any unauthorized manner. This involves verifying that the wallet's software has not been modified since it was last validated by a wallet certification authority. The integrity check might include verifying cryptographic hashes of the wallet software against known good values. 
 
 ## Cryptographic solution: the DOOR protocol
 
-<img src="/assets/img/EUDIselectivedisclosure.png" width="800">
+<img src="/assets/img/EUDIselectivedisclosure.png" width="600">
 
-PRIVE has extended DAA-A to create a new cryptographic protocol (called DOOR) that satisfies the above requirements of user binding and device binding. DAA-A is a strong privacy-preserving authentication scheme that supports the construction of Verifiable Presentations with selective disclosure through the encoding of
+PRIVÉ has extended DAA-A to create a new cryptographic protocol (called DOOR) that satisfies the above requirements of user binding and device binding. DAA-A is a strong privacy-preserving authentication scheme that supports the construction of Verifiable Presentations with selective disclosure through the encoding of
 each attributes as a seperate key.  The authenticity of the hidden attributes is proven by the integrated zero-knowledge (ZK) proofs.
  
-PRIVE has added an extra layers of security on top of DAA-A by constructing policy regulations to govern the usage of the DAA Key when signing attribute claims.  
+PRIVÉ has added an extra layers of security on top of DAA-A by constructing policy regulations to govern the usage of the DAA Key when signing attribute claims.  
 
 * One such policy ensures the binding of the DAA Key to the Holder's authenticated Wallet (Def.~\ref{def:devic-binding}), which in turn enables the binding of the issued identity data to the Holder as the intended recipient (Def.~\ref{def:holder-binding}). This is done by the VC Issuer through binding issued attributes to the anonymized part of the DAA credential.  
 * An additional policy binds the use of the DAA Key with the configuration of the wallet, so that it can be used if and only if the Wallet software integrity has not been altered in an unauthenticated manner. 
@@ -43,7 +45,7 @@ PRIVE has added an extra layers of security on top of DAA-A by constructing poli
 
 ## Implementation: The Trusted Component (TC) Bridge
 
-The Trusted Component (TC) Bridge is the main artifact delivered by PRIVE, which embodies the implementation of the solution and offers an API so that it can be seamlessly integrated with any EUDI wallet implementation. From an engineering perspective, the TC Bridge is a mechanism that allows seamless interaction between the secure hardware components of a user’s device (such as a Trusted Platform Module, or TEEs) and the various services and applications of the EUDI that need to utilize the cryptographic operations and privacy properties offered by PRIVE solution.
+The Trusted Component (TC) Bridge is the main artifact delivered by PRIVÉ, which embodies the implementation of the solution and offers an API so that it can be seamlessly integrated with any EUDI wallet implementation. From an engineering perspective, the TC Bridge is a mechanism that allows seamless interaction between the secure hardware components of a user’s device (such as a Trusted Platform Module, or TEEs) and the various services and applications of the EUDI that need to utilize the cryptographic operations and privacy properties offered by PRIVÉ solution.
 
 The TC Bridge has been engineered in order to offer the following properties:
 
@@ -55,7 +57,7 @@ The TC Bridge has been engineered in order to offer the following properties:
 
 ## Real-world Use Case and Demonstration
 
-PRIVE project has implemented and integrated anonymous credentials in a real-world Wallet. A big part of the project has been to also implement  a Use Case scenario, in order to demontrate the selective disclosure functionality in a real scenario. More specifically, PRIVE's Use Case focused on educational credentials, such as diplomas. Towards this direction, one major initiative currently in Europe is the development of [European Digital Credentials for Learning (EDC)]([https://](https://europass.europa.eu/en/stakeholders/european-digital-credentials)), which provides a standardized way to issue, share, and verify educational qualifications and achievements across Europe. EDC facilitates the digital transformation of learning credentials, ensuring they are portable, verifiable, and interoperable across different systems and borders. 
+PRIVÉ project has implemented and integrated anonymous credentials in a real-world Wallet. A big part of the project has been to also implement  a Use Case scenario, in order to demontrate the selective disclosure functionality in a real scenario. More specifically, PRIVÉ's Use Case focused on educational credentials, such as diplomas. Towards this direction, one major initiative currently in Europe is the development of [European Digital Credentials for Learning (EDC)]([https://](https://europass.europa.eu/en/stakeholders/european-digital-credentials)), which provides a standardized way to issue, share, and verify educational qualifications and achievements across Europe. EDC facilitates the digital transformation of learning credentials, ensuring they are portable, verifiable, and interoperable across different systems and borders. 
 
 The integration of selective disclosure within [European Digital Credentials for Learning (EDC)]([https://](https://europass.europa.eu/en/stakeholders/european-digital-credentials)) allows learners to present only the necessary credentials to various stakeholders, such as potential employers or other educational institutions, without revealing their entire educational history. In this work, we take the specific example of job application process. 
 
@@ -63,7 +65,7 @@ Selective disclosure for the job application process becomes a powerful tool, be
 
 <img src="/assets/img/PRIVEUseCase.png" width="600">
 
-PRIVE demonstrated the cryptographic solution in a real-world demonstrator with EUDI and EDCs for Learning. The scenario is the following: a job applicant is required to apply for a position as a mid-level software engineer through a job portal. The applicant must provide proof of their identity, educational qualifications, and work experience—all of which are managed and presented through their mobile wallet.
+PRIVÉ demonstrated the cryptographic solution in a real-world demonstrator with EUDI and EDCs for Learning. The scenario is the following: a job applicant is required to apply for a position as a mid-level software engineer through a job portal. The applicant must provide proof of their identity, educational qualifications, and work experience—all of which are managed and presented through their mobile wallet.
 
 1. Credential Issuers:
 
