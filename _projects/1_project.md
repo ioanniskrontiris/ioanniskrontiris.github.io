@@ -67,17 +67,17 @@ Selective disclosure for the job application process becomes a powerful tool, be
 
 PRIVÉ demonstrated the cryptographic solution in a real-world demonstrator with EUDI and EDCs for Learning. The scenario is the following: a job applicant is required to apply for a position as a mid-level software engineer through a job portal. The applicant must provide proof of their identity, educational qualifications, and work experience — all of which are managed and presented through their mobile wallet.
 
-### Credential Issuers:
+**Credential Issuers:**
 
 * Previous Employer: The user has a credential issued by their previous employer that details their work experience. This credential is securely stored in the mobile wallet.
 * eIDAS Node: The eIDAS node acts as an issuer of the electronic identification (eID) credential, which verifies the user’s identity in accordance with eID eIDAS Profile. 
 * EDC Issuer (Educational Credential): The user’s educational background, such as a diploma or degree certificate, is issued by an educational institution that complies with the European Digital Credentials for Learning (EDC) framework.
 
-### Mobile Wallet:
+**Mobile Wallet:**
 
 The user’s mobile wallet is the central repository where all verifiable credentials are stored. The wallet leverages the PRIVÉ solution (TC Bridge), which supports hardware-backed security features to ensure the integrity and authenticity of the credentials. The wallet allows the user to manage these credentials and selectively disclose only the necessary attribute values.  
 
-### Application Process:
+**Application Process:**
 
 * Verifiable Presentation: When applying for the software engineering position, the user generates a Verifiable Presentation (VP) from their mobile wallet. This VP selectively discloses only the credential attributes (e.g. educational qualifications, and work experience) required by the job portal. These are described in a policy sent by the the job portal to the user. 
 * Policy Enforcement: The job portal through a policy dictates what kind of credentials and attributes are necessary for the application. The mobile wallet ensures that only the relevant credentials that meet this policy are shared, maintaining the user’s privacy.
