@@ -2,16 +2,26 @@
 layout: page
 title: project 4
 description: another without an image
-img:
+img: abc4trust.png
 importance: 2
 category: work
+related_publications: 10538525
 ---
 
-Further advancements were achieved with the real-life implementations of ACs, U-Prove and Idemix, where authors tried to improve or implement them for a specific research field. U-Prove [26] is based on blind cryptographic protocols designed by Stefan Brands, focusing on user-centric identity management where digital identity is connected to tamper- resistant devices such as smart cards. Brands founded Creden- tica in 2004 and developed U-Prove. U-Prove was acquired by Microsoft in 2008 [27].
-In 2002, Jan Camenisch and Els Van Herreweghen from IBM presented Idemix, built for the PRIME/PRIMELIFE project, an AC system based on the CL signature scheme that allows anonymous, yet authenticated and accountable, trans- actions [28,29]. Both solutions implement selective disclosure using their underlying cryptographic primitives, which will be explained in the following sections.
-The development of U-Prove and Idemix resulted in an EU- funded project known as Attribute-based Credentials for Trust (ABC4Trust) 2010–2015 [30]. The project aimed to define a typical unified architecture for federating and interchang- ing different privacy ABC systems. ABCs are defined as a form of authentication mechanism that allows one to flexibly and selectively authenticate different attributes about an en- tity without revealing additional information about the entity. Privacy ABCs (pABCs) allow holders to reveal and prove the minimal information required. Both Idemix and U-Prove were integrated into its architecture. Besides them, further schemes were introduced. One of them is HM12 scheme [31] with discrete logarithm commitments. The other one is open source IRMA app (“I Reveal My Attributes”) known as the Yivi app [32], based on the Idemix ABC scheme which supports privacy-preserving features. Due to the popularity of Idemix, there are several papers discussing selective disclo- sure in specific credentials using CL signatures such as stan- dard Java Cards [33], auditing [34], e-health [35], electronic coupons [36].
+Attribute-based Credentials for Trust (ABC4Trust) was an EU-funded project from 2010–2015 that defined a common, unified architecture and delivered open reference implementations of Anonymous Credential systems. Its consortium includes both Microsoft and IBM, and ABC4Trust integrates both U-Prove and Idemix into its architecture. It also included the two pilot projects in Patras, Greece and Söderhamn, Sweden. ABC4Trust promoted collaborations between the big players and accelerated advances in the field of Anonymous Credentials. Its deliverables can be found here, and its Java source code is available in this repository.
 
-Attribute-based Credentials for Trust (ABC4Trust) was an EU-funded project from 2010–2015 that defined a common, unified architecture and delivered open reference implementations of ABC (Anoncred) systems. Its consortium includes both Microsoft and IBM, and ABC4Trust integrates both U-Prove and Idemix into its architecture [SR14, RCS15]. It also included the two pilot projects in Patras, Greece and Söderhamn, Sweden. ABC4Trust promoted collaborations between the big players and accelerated advances in the field of Anoncreds. Its deliverables can be found here, and its Java source code is available in this repository.
+### The Problem: Anonymous Authentication with Anonymous Credentials
+Anonymous authentication allows users to verify their identity or attributes without revealing personal information, ensuring privacy in digital interactions. However, traditional methods of authentication often expose more data than necessary, leading to privacy risks. Anonymous credentials provide a solution by enabling users to authenticate with the minimum required information, protecting their identity and ensuring that their actions cannot be traced back to them by service providers or third parties.
+
+Anonymous credentials can be broadly categorized into two types: Multi-Use Anonymous Credentials and Single-Use Anonymous Credentials. ABC4Trust considered two specific schemes:
+
+1.	**Idemix** (Identity Mixer): Idemix is a cryptographic protocol designed for multi-use anonymous credentials. It allows users to prove possession of certain attributes (like age or membership) without revealing their full identity. Idemix uses advanced cryptographic techniques, including zero-knowledge proofs and special digital signatures, enabling users to authenticate multiple times while ensuring that their interactions cannot be linked to each other. This makes it a powerful tool for scenarios requiring repeated authentication with strong privacy guarantees.
+2.	**U-Prove**: U-Prove is an example of single-use anonymous credentials. It allows users to generate a credential for a specific purpose and use it only once, ensuring that even if multiple verifications occur, they cannot be linked back to the user. U-Prove achieves this based on blind cryptographic protocols designed by Stefan Brands, where the credential is issued in such a way that the issuer cannot later trace its use. This makes U-Prove highly efficient and ideal for applications like digital coupons, voting, or single-use tokens.
+
+Both solutions implement selective disclosure using their underlying cryptographic primitives.
+The development of U-Prove and Idemix resulted in the ABC4Trust project that brought together both technologies and aimed to define a unified architecture for federating and interchanging different cryptographic primitivies to implement anonymous credentials. Both Idemix and U-Prove were integrated into its architecture.
+	
+### Achievements
 
 The ABC4Trust project achieved several key milestones in its efforts to enhance privacy and identity protection on the Internet through the use of cryptographic technologies:
 
