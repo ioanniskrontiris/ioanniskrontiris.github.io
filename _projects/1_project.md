@@ -39,7 +39,7 @@ each attributes as a seperate key.  The authenticity of the hidden attributes is
  
 PRIVÉ has added an extra layers of security on top of DAA-A by constructing policy regulations to govern the usage of the DAA Key when signing attribute claims.  
 
-* One such policy ensures the binding of the DAA Key to the Holder's authenticated Wallet (Def.~\ref{def:devic-binding}), which in turn enables the binding of the issued identity data to the Holder as the intended recipient (Def.~\ref{def:holder-binding}). This is done by the VC Issuer through binding issued attributes to the anonymized part of the DAA credential.  
+* One such policy ensures the binding of the DAA Key to the Holder's authenticated Wallet, which in turn enables the binding of the issued identity data to the Holder as the intended recipient. This is done by the VC Issuer through binding issued attributes to the anonymized part of the DAA credential.  
 * An additional policy binds the use of the DAA Key with the configuration of the wallet, so that it can be used if and only if the Wallet software integrity has not been altered in an unauthenticated manner. 
 
 
@@ -65,19 +65,19 @@ Selective disclosure for the job application process becomes a powerful tool, be
 
 <img src="/assets/img/PRIVEUseCase.png" width="600">
 
-PRIVÉ demonstrated the cryptographic solution in a real-world demonstrator with EUDI and EDCs for Learning. The scenario is the following: a job applicant is required to apply for a position as a mid-level software engineer through a job portal. The applicant must provide proof of their identity, educational qualifications, and work experience—all of which are managed and presented through their mobile wallet.
+PRIVÉ demonstrated the cryptographic solution in a real-world demonstrator with EUDI and EDCs for Learning. The scenario is the following: a job applicant is required to apply for a position as a mid-level software engineer through a job portal. The applicant must provide proof of their identity, educational qualifications, and work experience — all of which are managed and presented through their mobile wallet.
 
-1. Credential Issuers:
+### Credential Issuers:
 
 * Previous Employer: The user has a credential issued by their previous employer that details their work experience. This credential is securely stored in the mobile wallet.
-* eIDAS Node: The eIDAS node acts as an issuer of the electronic identification (eID) credential, which verifies the user’s identity in accordance with EU regulations. This eID is also stored within the mobile wallet.
-* EDC Issuer (Educational Credential): The user’s educational background, such as a diploma or degree certificate, is issued by an educational institution that complies with the European Digital Credentials for Learning (EDC) framework. This credential is stored alongside others in the mobile wallet.
+* eIDAS Node: The eIDAS node acts as an issuer of the electronic identification (eID) credential, which verifies the user’s identity in accordance with eID eIDAS Profile. 
+* EDC Issuer (Educational Credential): The user’s educational background, such as a diploma or degree certificate, is issued by an educational institution that complies with the European Digital Credentials for Learning (EDC) framework.
 
-2. Mobile Wallet:
+### Mobile Wallet:
 
-The user’s mobile wallet is the central repository where all verifiable credentials are stored. The wallet leverages the PRIVÉ solution, which supports hardware-backed security features to ensure the integrity and authenticity of the credentials. The wallet allows the user to manage these credentials and selectively disclose only the necessary attribute values.  
+The user’s mobile wallet is the central repository where all verifiable credentials are stored. The wallet leverages the PRIVÉ solution (TC Bridge), which supports hardware-backed security features to ensure the integrity and authenticity of the credentials. The wallet allows the user to manage these credentials and selectively disclose only the necessary attribute values.  
 
-3. Application Process:
+### Application Process:
 
 * Verifiable Presentation: When applying for the software engineering position, the user generates a Verifiable Presentation (VP) from their mobile wallet. This VP selectively discloses only the credential attributes (e.g. educational qualifications, and work experience) required by the job portal. These are described in a policy sent by the the job portal to the user. 
 * Policy Enforcement: The job portal through a policy dictates what kind of credentials and attributes are necessary for the application. The mobile wallet ensures that only the relevant credentials that meet this policy are shared, maintaining the user’s privacy.
