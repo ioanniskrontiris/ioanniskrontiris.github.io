@@ -8,9 +8,9 @@ category: work
 related_publications: 10538525
 ---
 
-[PRIVÉ]([https://](https://trustchain.ngi.eu/prive/)) was funded as a sub-grantee of [TrustChain]([https://](https://trustchain.ngi.eu/)) (Open Call 1 – Decentralised Digital Identity) during the period October 2023 - April 2024. TrustChain is part of the European Commission’s Next Generation Internet (NGI) initiative. 
+[PRIVÉ]([https://](https://trustchain.ngi.eu/prive/)) was funded as a sub-grantee of [TrustChain]([https://](https://trustchain.ngi.eu/)) (Open Call 1 – Decentralised Digital Identity). TrustChain is part of the European Commission’s Next Generation Internet (NGI) initiative. 
 
-he PRIVÉ project is a collaborative effort involving two key partners: [UBITECH Ltd](www.ubitech.eu) and [Homo Digitalis]([https://](https://homodigitalis.gr/en/))
+The project took place during the period October 2023 - April 2024 and it was a collaborative effort involving two partners: [UBITECH Ltd](www.ubitech.eu) and [Homo Digitalis]([https://](https://homodigitalis.gr/en/)).
 
 PRIVÉ designs and demonstrates a solution that uses anonymous credentials in [EU Digital Identity Wallet (EUDI)]([https://](https://ec.europa.eu/digital-building-blocks/sites/display/EUDIGITALIDENTITYWALLET/EU+Digital+Identity+Wallet+Home)). Through this cryptographic mechanism, EUDI achieves secure and privacy-preserving authentication and identification. 
 
@@ -34,7 +34,7 @@ PRIVÉ solves this problem by making sure that the key stored in the secure elem
 
 <img src="/assets/img/PRIVE_overview_architecture.png" width="600">
 
-PRIVÉ has extended DAA-A to create a new cryptographic protocol (called DOOR) that satisfies the above requirements of user binding and device binding. DAA-A is a strong privacy-preserving authentication scheme that supports the construction of Verifiable Presentations with selective disclosure through the encoding of
+PRIVÉ has extended [DAA-A: Direct anonymous attestation with attributes]([https://](https://link.springer.com/chapter/10.1007/978-3-319-22846-4_14)) to create a new cryptographic protocol (called DOOR) that satisfies the above requirements of user binding and device binding. DAA-A is a strong privacy-preserving authentication scheme that supports the construction of Verifiable Presentations with selective disclosure through the encoding of
 each attributes as a seperate key.  The authenticity of the hidden attributes is proven by the integrated zero-knowledge (ZK) proofs.
  
 PRIVÉ has added an extra layers of security on top of DAA-A by constructing policy regulations to govern the usage of the DAA Key when signing attribute claims.  
@@ -92,7 +92,7 @@ To evaluate our model, we conducted a comprehensive user trial focusing on the a
 
 The user trial for the PRIVÉ project involved recruiting a diverse group of participants through an open call, ensuring representation across various demographics, technological proficiency levels, and geographic regions. During the trial, the users installed the identity wallet on their mobile phones and tried it out in a hypothetical scenario of applying for a job. At the end, feedback was collected through a questionnaire that users had to answer. 
 
-The PRIVÉ project utilized the Technology Acceptance Model (TAM) as the foundational framework for collecting feedback and analyzing user adoption factors. The TAM model had to be extended to capture how much different aspects of trust affect their decision to adopt the technology. 
+The PRIVÉ project utilized the [Technology Acceptance Model]([https://](https://en.wikipedia.org/wiki/Technology_acceptance_model)) (TAM) as the foundational framework for collecting feedback and analyzing user adoption factors. The TAM model had to be extended to capture how much different aspects of trust affect their decision to adopt the technology. 
 
 
 
