@@ -32,7 +32,7 @@ PRIVÉ solves this problem by making sure that the key stored in the secure elem
 
 ## Cryptographic solution: the DOOR protocol
 
-<img src="/assets/img/EUDIselectivedisclosure.png" width="600">
+<img src="/assets/img/PRIVE_overview_architecture.png" width="600">
 
 PRIVÉ has extended DAA-A to create a new cryptographic protocol (called DOOR) that satisfies the above requirements of user binding and device binding. DAA-A is a strong privacy-preserving authentication scheme that supports the construction of Verifiable Presentations with selective disclosure through the encoding of
 each attributes as a seperate key.  The authenticity of the hidden attributes is proven by the integrated zero-knowledge (ZK) proofs.
