@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 4
+title: ABC4Trust
 description: another without an image
-img: abc4trust.png
+img: assets/img/abc4trust.png
 importance: 2
 category: work
 related_publications: 10538525, apf
