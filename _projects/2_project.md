@@ -1,81 +1,24 @@
 ---
 layout: page
-title: project 2
+title: ESSIF-Lab Project - DOOR 
 description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+img: assets/img/DOOR_logo.png
 importance: 4
 category: work
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+In the case of Europe, the eIDAS regulation clearly defines the requirements for authentication factors to achieve a certain level of assurance (LoA). Bare proof-of-possession of a private key does not achieve even the lowest level of assurance in eIDAS, since it involves only a single authentication factor. The SSI eIDAS Bridge, which was developed within the H2020 NGI ESSIF Lab project, makes eIDAS available as a trust framework for the SSI ecosystem. The aim of the SSI eIDAS Bridge is precisely to get, at least, eIDAS LoA Substantial. That means working in the DID control keys, possible aligned with the eIDA eSign/eSeal regulation. So, it is an approach to make eIDAS available as a trust framework for the SSI ecosystem.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+However, it is limited to eIDAS applications and therefore it focuses on the trust domain of national legal electronic identification and trust services in the European context. As an alternative, Kubach et al.~\cite{train} proposed a trust management infrastructure called TRAIN, which leverages the global Domain Name System (DNS) and is based on the project LIGHTest~\cite{LIGHTest}. 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<img src="/assets/img/DOOR_essif.png" width="700">
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+A core challenge in SSI is the verification of the integrity and origin of the presented Verifiable Credentials (VCs): How can someone be sure that the presented VCs (for a specific DID) really belong to the claimed entity?  On a technical level, this translates to users having control of their own VCs and DIDs through their Wallets which can ensure that credentials and (private) keys can only become available to this user or another actor that acts on behalf of this principal. However, since it is only the user (as the Identity Owner) that knows the (private) key associated with a DID, the level of control and assurance over a DID (and a VC) relies solely on possessing a software-based key, creating trustworthiness issues: How can a Verifier be sure of the correctness of the User/Holder that presents a VC that the respective key has not been compromised?
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+DOOR project proposes a comprehensive solution for establishing trust across multiple stakeholders in the SSI ecosystem by leveraging decentralized Roots-of-Trust such as secure elements including Trusted Platform Modules (TPMs), Trusted Execution Environments (TEEs), DICE, etc. It is based on the use of advanced crypto primitives, namely Direct Anonymous Attestation (DAA), generating hw-based keys to be binded to a Holder’s VC (Wallet) that can provide verifiable evidence and assurances about the presented VC's origin and integrity.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+DOOR enables the use of crypto operations of the DAA (ECC, Blind Signatures, Zero Knowledge Proofs) towards providing additional trust assurances on the use of VCs: As can be seen in Figure~\ref{fig:daabridge}, issued VCs are binded to a specific Wallet and can only be used if our DAA-Bridge Extension can verify the correctness of the Wallet which, in turn, translates to the respective (private) key of this VC not been compromised. A DAA scheme enables a signer to prove the possession of the issued credential to a verifier by providing a signature, which allows the verifier to authenticate the signer without revealing the credential and signer’s identity.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+DAA's ECC keys, attestation services and key hierarchy (supported by the underlying secure element and its Endorsement Key that acts as the ID of the Wallet) can support the provision of verifiable evidence on the correct configuration state and/or execution of the Wallet. Essentially, the DAA-Bridge Extension will not allow the use of a key for signing a Verifiable Credential or a Verifiable Presentation unless no compromise has been detected (Device Correct State). Only then a signature can be produced based on ECC built on pairing-friendly elliptic curves. Different from a Public-Key Infrastructure (PKI) which is based on a trusted centralized Certificate Authority (CA) to bind public key pairs to identities, DAA certifies identities locally on the Holder's Device.
