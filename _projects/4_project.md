@@ -3,12 +3,15 @@ layout: page
 title: ABC4Trust
 description: FP7 project - A unified architecture for Anonymous Credentials
 img: assets/img/abc4trust_logo.png
-importance: 2
+importance: 4
 category: work
 related_publications: 10538525, apf
 ---
 
-Attribute-based Credentials for Trust (ABC4Trust) was an EU-funded project from 2010–2015 that defined a common, unified architecture and delivered open reference implementations of Anonymous Credential systems. Its consortium includes both Microsoft and IBM, and ABC4Trust integrates both U-Prove and Idemix into its architecture. It also included the two pilot projects in Patras, Greece and Söderhamn, Sweden. ABC4Trust promoted collaborations between the big players and accelerated advances in the field of Anonymous Credentials. Its deliverables can be found here, and its Java source code is available in this repository.
+[ABC4Trust](http://abc4trust.eu/) was a project that received research funding from the 7th Research Framework Program (FP7) of the  EU as part of the Trust & Security Program. 
+
+The project took place during the period November 2010 – February 2015 and it was a collaborative effort involving [12 partners](https://abc4trust.eu/home/consortium) from industry, academia, research centres and data protection authorities.
+
 
 ### Anonymous Authentication with Anonymous Credentials
 Anonymous authentication allows users to verify their identity or attributes without revealing personal information, ensuring privacy in digital interactions. However, traditional federated identity management has introduced increased security and privacy risks, since in this setup identity is shared across domains. More specifically, it is usually the case that when the certificates contain user-specific attributes they also require disclosure of all these attributes with every usage, which violates the privacy paradigm of data minimization (even though it can be avoided with Online IdPs or Single Sign-On (SSO) schemes). 

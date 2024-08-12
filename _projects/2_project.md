@@ -3,7 +3,7 @@ layout: page
 title: ESSIF-Lab Project - DOOR 
 description: a project with a background image and giscus comments
 img: assets/img/DOOR_logo.png
-importance: 4
+importance: 2
 category: work
 giscus_comments: true
 ---
