@@ -49,7 +49,7 @@ The Trusted Component (TC) Bridge is the main artifact delivered by PRIVÉ, whic
 
 The TC Bridge has been engineered in order to offer the following properties:
 
-1. **Mediation between Software and Hardware:** The TC Bridge acts as an intermediary layer that connects the software components of a digital identity system (such as the digital wallet application) with the hardware-based security features offered by the Trusted Component. The TC Bridge abstracts the complexity of direct hardware interactions, providing a standardized interface through which the software can request cryptographic operations, such as signing, encryption, or key management, without needing to handle the low-level details of the hardware.
+1. **Mediation between Wallet and Trusted Component:** The TC Bridge acts as an intermediary layer that connects the digital wallet with the hardware-based security features offered by the Trusted Component. The TC Bridge abstracts the complexity of direct hardware interactions, providing an API through which the software can request cryptographic operations, such as signing, encryption, or key management, without needing to handle the low-level details of the hardware.
 2. **Credential Handling and Attestation:** The TC Bridge is responsible for facilitating the secure handling of credentials. For example, when a credential needs to be signed or verified, the TC Bridge routes these requests to the Trusted Component, which performs the necessary cryptographic operations in a secure environment. Additionally, the TC Bridge handles the generation and management of attestation certificates, such as the Direct Anonymous Attestation (DAA) certificates, which are used to prove the integrity and authenticity of the credentials without compromising user privacy.
 3. **Key Management and Usage Policies:** A critical role of the TC Bridge is enforcing key management and usage policies as defined by the system’s security architecture. The Trusted Component typically holds cryptographic keys in a highly secure manner, and the TC Bridge ensures that these keys are only used according to predefined policies. This includes restrictions on how and when keys can be used, ensuring that they cannot be misused or accessed by unauthorized software or processes.
 4. **Interoperability with Multiple Trusted Components:** The TC Bridge is designed to be interoperable with various types of Trusted Components, including different versions of TPMs, secure enclaves, or other hardware security modules. This flexibility allows the digital identity system to function across a range of devices and platforms, ensuring broad compatibility and adoption. The TC Bridge abstracts the differences between these components, providing a consistent API that the application layer can rely on.
@@ -63,7 +63,7 @@ The integration of selective disclosure within [European Digital Credentials for
 
 Selective disclosure for the job application process becomes a powerful tool, because it can enable blind recruitment, which aims to reduce biases in hiring by concealing certain applicant attributes that could lead to discrimination. For example, the National Bureau of Economic Research (NBER) has shown that revealing age information during the first stages of recruitment process can lead to significant age discrimination. 
 
-<img src="/assets/img/PRIVEUseCase.png" width="600">
+<img src="/assets/img/PRIVEUseCase.png" width="700">
 
 PRIVÉ demonstrated the cryptographic solution in a real-world demonstrator with EUDI and EDCs for Learning. The scenario is the following: a job applicant is required to apply for a position as a mid-level software engineer through a job portal. The applicant must provide proof of their identity, educational qualifications, and work experience — all of which are managed and presented through their mobile wallet.
 
@@ -92,7 +92,7 @@ To evaluate our model, we conducted a comprehensive user trial focusing on the a
 
 The user trial for the PRIVÉ project involved recruiting a diverse group of participants through an open call, ensuring representation across various demographics, technological proficiency levels, and geographic regions. During the trial, the users installed the identity wallet on their mobile phones and tried it out in a hypothetical scenario of applying for a job. At the end, feedback was collected through a questionnaire that users had to answer. 
 
-The PRIVÉ project utilized the [Technology Acceptance Model](https://en.wikipedia.org/wiki/Technology_acceptance_model) (TAM) as the foundational framework for collecting feedback and analyzing user adoption factors. The TAM model had to be extended to capture how much different aspects of trust affect their decision to adopt the technology. 
+The PRIVÉ project utilized and extended the [Technology Acceptance Model](https://en.wikipedia.org/wiki/Technology_acceptance_model) (TAM) as the foundational framework for collecting feedback and analyzing user adoption factors. The TAM model had to be extended to capture how much different aspects of trust affect their decision to adopt the technology. 
 
 
 
