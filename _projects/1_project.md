@@ -34,8 +34,7 @@ PRIVÉ solves this problem by making sure that the key stored in the secure elem
 
 <img src="/assets/img/PRIVE_overview_architecture.png" width="600">
 
-PRIVÉ has extended [DAA-A: Direct anonymous attestation with attributes](https://link.springer.com/chapter/10.1007/978-3-319-22846-4_14) to create a new cryptographic protocol (called DOOR) that satisfies the above requirements of user binding and device binding. DAA-A is a strong privacy-preserving authentication scheme that supports the construction of Verifiable Presentations with selective disclosure through the encoding of
-each attributes as a seperate key.  The authenticity of the hidden attributes is proven by the integrated zero-knowledge (ZK) proofs.
+PRIVÉ has extended [DAA-A: Direct anonymous attestation with attributes](https://link.springer.com/chapter/10.1007/978-3-319-22846-4_14) to create a new cryptographic protocol (called DOOR) that satisfies the above requirements of user binding and device binding. DAA-A is a strong privacy-preserving authentication scheme that supports the construction of Verifiable Presentations with selective disclosure through the encoding of each attributes as a seperate key.  The authenticity of the hidden attributes is proven by the integrated zero-knowledge (ZK) proofs.
  
 PRIVÉ has added an extra layers of security on top of DAA-A by constructing policy regulations to govern the usage of the DAA Key when signing attribute claims.  
 
