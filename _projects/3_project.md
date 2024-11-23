@@ -2,80 +2,25 @@
 layout: page
 title: CONNECT
 description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+img: assets/img/CONNECT-Logo-4C-q.png
 importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+### Dynamic Trust Assessment of V2X messages and actors is now possible
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The cornerstone of the CONNECT project is its Trust Assessment Framework (TAF), which enables continuous assessment and dynamic trust establishment, addressing both data trustworthiness and the trust level of entities within the CCAM ecosystem.
+* Dynamic Trust Models: CONNECT’s Trust Model Manager (TMM) builds dynamic trust models that capture and maintain multiple trust relationships among different data sources and entities. These models adapt to real-time changes, ensuring that trust assessments remain relevant throughout system operation.
+* Evidence-Based Trust Evaluation: The Trust Level Evaluation Engine (TLEE) leverages observable evidence and referral-based relationships to dynamically evaluate the trustworthiness of data sources and observations. This probabilistic approach ensures robust and accurate trust assessments, even under changing network and operational conditions.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+### Runtime Monitoring and Trust-Based Security Claims
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+The CONNECT project integrates trusted computing capabilities directly into CCAM entities, creating a “network of trust” through continuous attestation and verification mechanisms.
+* Roots of Trust for Vehicles: By embedding trusted computing bases within vehicle electronic control units (ECUs) and sensors, CONNECT enables runtime attestation of device integrity, configuration, and software execution. This capability ensures real-time verification of each component’s security status.
+* Secure Evidence Sharing: Security claims generated during trust assessments are shared with other entities in a privacy-preserving manner, maintaining data integrity while mitigating risks associated with information exposure. Advanced cryptographic constructs, such as anonymous threshold signatures, enable zero-knowledge proofs of trust, preserving user privacy without compromising security.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### Applying Digital Twin Technology for Enhanced Trust and Efficiency
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+CONNECT has extended the application of digital twins into the realm of trust assessment, leveraging this concept to optimize and offload resource-intensive tasks in a secure manner.
+* Digital Twin as a Trust Enabler: By creating synchronized digital replicas of vehicles and CCAM nodes, CONNECT facilitates secure computation offloading to Multi-access Edge Computing (MEC) environments. These digital twins operate within Trusted Execution Environments (TEEs), maintaining confidentiality and integrity throughout all operations.
