@@ -3,7 +3,7 @@ layout: page
 title: ABC4Trust
 description: FP7 project - A unified architecture for Anonymous Credentials
 img: assets/img/abc4trust_logo.png
-importance: 4
+importance: 5
 category: work
 related_publications: 10538525, apf
 ---

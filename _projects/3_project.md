@@ -3,7 +3,7 @@ layout: page
 title: CONNECT
 description: Assessing Trustworthiness of data and actors in Cooperative, connected and automated mobility (CCAM)
 img: assets/img/CONNECT-Logo-4C-q.png
-importance: 3
+importance: 4
 category: work
 ---
 

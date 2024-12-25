@@ -3,7 +3,7 @@ layout: page
 title: project 8
 description: Continuum of Trust: Increased Path Agility and Trustworthy Device and Service Provisioning
 img: assets/img/CASTOR_logo.png
-importance: 2
+importance: 3
 category: work
 giscus_comments: true
 ---
