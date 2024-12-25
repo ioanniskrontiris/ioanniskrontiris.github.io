@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CONNECT
-description: a project that redirects to another website
+description: Assessing Trustworthiness of data and actors in CCAM
 img: assets/img/CONNECT-Logo-4C-q.png
 importance: 3
 category: work
@@ -22,5 +22,20 @@ The CONNECT project integrates trusted computing capabilities directly into CCAM
 
 ### Applying Digital Twin Technology for Enhanced Trust and Efficiency
 
-CONNECT has extended the application of digital twins into the realm of trust assessment, leveraging this concept to optimize and offload resource-intensive tasks in a secure manner.
-* Digital Twin as a Trust Enabler: By creating synchronized digital replicas of vehicles and CCAM nodes, CONNECT facilitates secure computation offloading to Multi-access Edge Computing (MEC) environments. These digital twins operate within Trusted Execution Environments (TEEs), maintaining confidentiality and integrity throughout all operations.
+One of the biggest security challenges that Multi-Access Edge Computing (MEC) is facing today is the establishment of mutual trust between involved actors. Mutual trust establishment becomes much more complex considering multiple trust domains that are involved in order to establish a trustful collaborative and data sharing environment. More specifically, mutual trust between MEC Applications and MEC platforms is hard because 
+* in principle the edge application from MNO A should be considered as if it would be running on an “hostile” environment (MNO B) and also vice-versa, i.e. 
+* a platform operated by MNO B is hosting “unknown” applications which may endanger the system;
+
+We need trustworthiness not only of the communicating parties, but also trustworthiness of the environment and the provenance of the services running. According to CONNECT, two kinds of technologies are nececcary to address the latter: 
+
+* Importance of Runtime and Composable Attestation: Runtime attestation dynamically verifies the integrity of MEC nodes and applications during operation, ensuring they remain secure over time. However, it is still open how to elevate Runtime Attestation from a single device to a trustworthy service graph chain (composition of devices), featuring collaborative function service execution.
+* Hardware Root of Trust (RoT): A hardware-based trust anchor (e.g., TPM or TEE) that enables tamper-proof verification of a system’s integrity and safeguards critical assets like cryptographic keys. RoT provides a secure foundation for runtime attestation, ensuring trustworthiness even across multi-stakeholder MEC domains. Interoperability and agility between RoT providers are already a concern in standardization activities like IETF (e.g. TDISP. RATS) 
+
+<img src="/assets/img/CONNECT_MEC_Task_Offloading.png" width="700">
+
+CONNECT investigates a representative automotive use case to exemplify its trust framework on the MEC: AI-driven slow-moving traffic detection (SMTD). In this scenario, vehicles capture video data and offload computationally intensive tasks, such as real-time video analytics, to nearby MEC nodes. The MEC nodes process the data using machine learning models and return actionable insights, like hazard detection, to the vehicles. This task requires dynamic collaboration between vehicles, MEC nodes, and infrastructure managed by multiple stakeholders. 
+
+Challenges such as verifying the trustworthiness of MEC nodes before offloading and ensuring the integrity of processed data underscore the importance of secure, real-time trust assessment mechanisms in dynamic, federated environments.
+
+CONNECT’s trust framework resolved these trust challenges by operating at both the vehicle and MEC nodes, leveraging evidence-based trust claims to evaluate the trustworthiness of entities before offloading tasks. This approach dynamically adapts to evolving trust contexts, ensuring seamless and secure interactions. Key security measures include the use of hardware-rooted secure elements, such as Trusted Execution Environments (TEEs), to protect applications and data from unauthorized access or modification, and Chip-to-Cloud assurances, where video frames are securely transmitted over TLS-encrypted channels. 
+
