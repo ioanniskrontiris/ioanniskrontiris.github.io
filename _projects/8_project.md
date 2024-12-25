@@ -1,81 +1,37 @@
 ---
 layout: page
 title: project 8
-description: an other project with a background image and giscus comments
-img: assets/img/9.jpg
+description: Continuum of Trust: Increased Path Agility and Trustworthy Device and Service Provisioning
+img: assets/img/CASTOR_logo.png
 importance: 2
 category: work
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+[CASTOR](https://castorhorizon.eu/), funded by the European Commission (Grant Agreement No. 101167904), will run for three years, from October 2024 to September 2027, aiming to revolutionize the realm of trustworthy communication across computing environments. CASTOR’s mission is to develop and implement a robust framework for a “Continuum of Trust” that enhances path agility and ensures trustworthy provisioning of devices and services across distributed networks.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The CASTOR project is at the forefront of innovation in cybersecurity and trust management. Addressing the complexities of the modern “Compute Continuum” (CC) — a paradigm where computing seamlessly spans from cloud infrastructures to the network edge and user devices — CASTOR envisions a future where trust is not only assured but dynamically managed across this continuum.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+### The Vision of CASTOR
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+CASTOR introduces a Continuum of Trust, emphasizing zero-trust principles and robust security for the interconnected world. It seeks to overcome the limitations of current network and device trust models by enabling end-to-end secure service provisioning through groundbreaking advancements in trust quantification, dynamic policy enforcement, and trusted path routing.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+Key Innovations:
+	1.	Dynamic Trust Management: CASTOR pioneers a Trust Management Framework that assesses trust levels dynamically, integrating hardware (HW) and software (SW) elements across the CC. By leveraging advanced methods like Subjective Logic, it provides real-time trust evaluations that adapt to the fluid and distributed nature of modern networks.
+	2.	Trusted Path Routing: Existing protocols for network routing lack comprehensive trust mechanisms. CASTOR addresses this by introducing trust-aware path optimization, enabling traffic to flow through routes meeting stringent security and reliability criteria. This ensures not only confidentiality but also resilience against attacks like route hijacking.
+	3.	Zero-Trust Service Orchestration: CASTOR extends zero-trust principles with dynamic security lifecycle management. This includes continuous attestation and trust assessment of devices, ensuring that every interaction within the continuum is secured from chip to cloud.
+	4.	Advanced Attestation Mechanisms: Through composable attestation services, CASTOR strengthens the trustworthiness of devices and network nodes. These services support runtime verification of device integrity and operational correctness, aligning with global standards for secure computing.
+	5.	Open Source for Trust: CASTOR is developing an open-source software stack to ensure broad accessibility and interoperability, fostering adoption across diverse industries and contributing to Europe’s strategic goals for digital sovereignty.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Real-World Applications:
 
-{% raw %}
+CASTOR’s technologies will be validated through real-world implementations in domains such as smart cities, critical infrastructure, and next-generation IoT systems. By enabling dynamic trust assessment and secure dataflows, CASTOR provides the foundation for secure, efficient, and resilient digital ecosystems.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+### Why CASTOR Matters:
 
-{% endraw %}
+Today’s digital landscape is defined by interconnected ecosystems that span multiple domains, from edge devices in smart homes to centralized cloud infrastructure. This complexity comes with significant challenges: ensuring end-to-end trust, managing security dynamically, and enabling seamless communication across domains. Existing solutions fall short of addressing these needs comprehensively. This is where CASTOR stands out.
+	1.	A Unified Approach to Trust: CASTOR introduces the first comprehensive framework for trust quantification and dynamic management in the Compute Continuum. Unlike isolated or static security measures, it integrates trust into every layer, making it possible to adapt to changes in real-time—whether due to evolving threats or shifting resource conditions.
+	2.	Addressing Critical Gaps: CASTOR directly tackles the shortcomings of current networking protocols and security frameworks. By enabling trust-aware routing and continuous device attestation, it ensures that data and services are protected at every step of their journey, even across domains with varying security postures.
+	3.	Scalable and Future-Ready: By leveraging cutting-edge techniques like Subjective Logic for trust evaluation and Quantum Annealing for path optimization, CASTOR’s solutions are designed to scale with the growing demands of hyper-connected systems. Its approach prepares networks for challenges not only of today but also of tomorrow’s post-quantum era.
+	4.	Real-World Impact: CASTOR isn’t just theoretical. With pilot implementations in diverse use cases like smart cities and critical infrastructure, it is set to deliver tangible benefits: reduced vulnerability to attacks, optimized network performance, and stronger compliance with global cybersecurity standards.
