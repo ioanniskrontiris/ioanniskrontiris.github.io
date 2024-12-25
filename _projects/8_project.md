@@ -5,7 +5,6 @@ description: Continuum of Trust: Increased Path Agility and Trustworthy Device a
 img: assets/img/CASTOR_logo.png
 importance: 3
 category: work
-giscus_comments: true
 ---
 
 
