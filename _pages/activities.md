@@ -17,9 +17,12 @@ nav_order: 4
 
 ### Talks and Panels
 
-*   Presentation "CONNECT - Continuous and Efficient Cooperative Trust Management for Resilient CCAM  ", [RTR Conference: Results from road transport research](https://rtrconference.eu/), Brussels, Belgium, 5-7 February 2024
+*   Panel Presentation "Towards Trust-Aware Automotive Task Offloading", [ETSI MEC - Cybersecurity at the Edge](https://mecwiki.etsi.org/index.php?title=Cybersecurity_at_the_Edge), Athens, Greece, 10 December 2024
+*   Presentation "Inputs by Cluster 5 "KET" to Large-scale Deomonstrations", [CCAM Association Multicluster Meeting](https://www.ccam.eu/october-ccam-multicluster-meeting-checkpoint-for-the-ccam-partnership/), Brussels, Belgium, 10 October 2024
+*   Panel Presentation "CONNECT: Continuous and Efficient Cooperative Trust Management for Resilient CCAM", [European Conference on the Results from Road Transport Research (RTR Conference 2024)](https://rtrconference.eu/rtr-2024/), Brussels, Belgium, 5-7 February 2024
 *   Presentation "CONNECT - Continuous and Efficient Cooperative Trust Management for Resilient CCAM", 5GAA Community Building Event, Tokyo, Japan, 29 January 2024    
 *   Panel Moderator - [ITS European Congress](https://itseuropeancongress.com/), Panel on "Roadmap towards adoption of dynamic trust assurances for sustainability in CCAM", 23 May 2023
+*   Presentation "CONNECT - Continuous and Efficient Cooperative Trust Management for Resilient CCAM", [CCAM Association Multicluster Meeting](https://www.ccam.eu/2nd-ccam-multicluster-meeting-what-you-need-to-know/), Brussels, Belgium, 25 October 2022
 *   Invited Presentation, together with K. Grammenou, "Ethical and Technical Challenges in the area of Artificial Intelligence, Data Protection and its impact on the Job Market", Career Month of Greek Pharmaceutical Students’ Federation, November 21, 2021   
 *   Invited Keynote Speech, "Enabling Trusted Digital Identities – From Connected Citizens to Connected Objects", [CYSARM 2020](https://cysarm.org/): 2nd Workshop on Cyber-Security Arms Race, Orlando, US, November 13, 2020
 *   Invited Presentation, "Privacy-Preserving Data Mining of Big Data", [5th e-EGC Winter School](https://egc2019.sciencesconf.org/resource/page/id/12), Metz, France, 21-22 January 2019
@@ -31,7 +34,7 @@ nav_order: 4
 *   Panel Presentation, "Trust Frameworks: Are We Being Misdirected By The 3-Party Model?", [RSA Conference 2013](http://www.rsaconference.com/events/us13), February 25 - March 1, San Francisco
 *   Panel Presentation on EU Digital Agenda (GINI-SA Roundtable), [iSSE 2012](http://www.isse.eu.com/), 23-24 October 2012, Brussels
 *   Presentation, "Privacy and Trust in Participatory Sensing", [IFIP WG 11.2 : Seminar 2012](http://www.ifiptc11.org/index.php?id=536/), July 4th, 2012, Nijmegen, The Netherlands
-*   Presentation, "Attribute-based credentials for social networks and qualified feedback. ABC4 Trust - concepts and trials", [2012 IBM Academic Days Conference](https://ibmzrl.wordpress.com/2012/05/31/dataanalytics/), 14-15 May, Frankfurt
+*   Presentation, "Attribute-based credentials for social networks and qualified feedback. ABC4Trust - concepts and trials", [2012 IBM Academic Days Conference](https://ibmzrl.wordpress.com/2012/05/31/dataanalytics/), 14-15 May, Frankfurt
 *   Presentation, "My Life, Shared - Privacy and Trust in Mobile Participatory Sensing", Informatik Research Seminar, Darmstadt University, 11 May 2012, Darmstadt, Germany
 *   Panel Presentation "What ABC4Trust can do for Privacy in eID", [European Identity & Cloud Conference (EIC 2012)](https://www.id-conf.com/eic2012), 17-20 April 2012, Munich, Germany
 *   Keynote Speaker on "Minimal disclosure and anonymous credentials", [4th ENISA Summer School on Network & Information Security](http://www.nis-summer-school.eu/), 27 June - 1 July 2011, Crete, Greece
