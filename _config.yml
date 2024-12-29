@@ -8,11 +8,11 @@ middle_name:
 last_name: Krontiris
 email: ikrontiris@posteo.de
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  An academic portfolio and blog featuring Ioannis Krontiris' projects, research, and insights into technology and science.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: Ioannis Krontiris, EUDI, subjective logic, selective disclosure, user binding, device binding, TPM, TEE, DAA, EDC, eIDAS, Verifiable Credentials, VPs, Verifiable Presentation, V2X messages, ATL, RTL, Trust Assessment, Trust Model, Dynamic Trust, MEC, task offloading, 5GAA, privacy-preserving technologies, autonomous vehicles, direct anonymous attestation, privacy in V2X communication, self-sovereign identity, privacy-enhancing technologies, mobile crowd sensing, trust management, dynamic trust assessment, participatory sensing, urban sensing networks, privacy-by-design, anonymous credentials, decentralized identity, privacy-protection frameworks, digital identity wallets, PKI systems, privacy and security in IoT, secure service chains, federated identity, privacy-aware architectures, privacy policy frameworks, cyber-physical systems security, secure reprogramming in sensor networks, location privacy, privacy in smart cities, privacy in connected vehicles, ethical AI, privacy in mobile applications, trustworthy computing, privacy benchmarks, privacy and blockchain, privacy in cloud services, eID security, secure data delivery, user privacy adoption, privacy research agendas, secure urban sensing, secure network reprogramming, cryptographic trust systems, participatory privacy mechanisms, quantitative privacy modeling, privacy-aware communication, crowd-sensing incentives, privacy in autonomous systems, trust in privacy ecosystems, privacy-respecting architectures # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -274,7 +274,7 @@ defaults:
   - scope:
       path: "assets"
     values:
-      sitemap: false
+      sitemap: true
 
 sass:
   style: compressed
