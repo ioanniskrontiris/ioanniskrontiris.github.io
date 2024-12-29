@@ -5,7 +5,7 @@ description: a project with a background image and giscus comments
 img: assets/img/DOOR_logo.png
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
 In the case of Europe, the eIDAS regulation clearly defines the requirements for authentication factors to achieve a certain level of assurance (LoA). Bare proof-of-possession of a private key does not achieve even the lowest level of assurance in eIDAS, since it involves only a single authentication factor. The SSI eIDAS Bridge, which was developed within the H2020 NGI ESSIF Lab project, makes eIDAS available as a trust framework for the SSI ecosystem. The aim of the SSI eIDAS Bridge is precisely to get, at least, eIDAS LoA Substantial. That means working in the DID control keys, possible aligned with the eIDA eSign/eSeal regulation. So, it is an approach to make eIDAS available as a trust framework for the SSI ecosystem.
