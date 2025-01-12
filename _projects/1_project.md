@@ -1,6 +1,6 @@
 ---
 layout: page
-title: TrustChain
+title: TrustChain Project - PRIVÉ
 description: Achieving Higher Level of Assurance in Privacy Preserving Identity Wallets
 img: assets/img/EUDIselectivedisclosure.png
 importance: 1
