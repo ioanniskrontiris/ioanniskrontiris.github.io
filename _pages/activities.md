@@ -17,6 +17,7 @@ nav_order: 4
 
 ### Talks and Panels
 
+*   Panel Presentation "AI Security and Trustworthiness: Technical and Societal Views", [Trust in Digital Life](https://trustindigitallife.eu/event/secure-trustworthy-of-ai-applications/), online, 14 February 2025
 *   Panel Presentation "Towards Trust-Aware Automotive Task Offloading", [ETSI MEC - Cybersecurity at the Edge](https://mecwiki.etsi.org/index.php?title=Cybersecurity_at_the_Edge), Athens, Greece, 10 December 2024
 *   Presentation "Inputs by Cluster 5 "KET" to Large-scale Deomonstrations", [CCAM Association Multicluster Meeting](https://www.ccam.eu/october-ccam-multicluster-meeting-checkpoint-for-the-ccam-partnership/), Brussels, Belgium, 10 October 2024
 *   Panel Presentation "CONNECT: Continuous and Efficient Cooperative Trust Management for Resilient CCAM", [European Conference on the Results from Road Transport Research (RTR Conference 2024)](https://rtrconference.eu/rtr-2024/), Brussels, Belgium, 5-7 February 2024
