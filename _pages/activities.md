@@ -9,6 +9,7 @@ nav_order: 4
 
 ### I have (co-) organized the following events
 
+*   Co-organizer - [AI Trustworthiness Workshop](https://horizon-connect.eu/workshop-on-trustworthy-ai-2/), Frankfurt, Germany, 25-26 March 2025 
 *   Panel Moderator - [ITS European Congress](https://itseuropeancongress.com/), Panel on "Roadmap towards adoption of dynamic trust assurances for sustainability in CCAM", 23 May 2023    
 *   Co-organizer - Dagstuhl [Seminar 23242](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/23242): "Privacy Protection of Automated and Self-Driving Vehicles", 11-16 June 2023.
 *   Co-organizer - Dagstuhl [Seminar 22042](https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=22042): "Privacy Protection of Automated and Self-Driving Vehicles", 23-28 January 2022.  
@@ -17,6 +18,7 @@ nav_order: 4
 
 ### Talks and Panels
 
+*   Panel Presentation "AI Trustworthiness in 6G", [CONNECT AI Trustworthiness Workshop](https://horizon-connect.eu/workshop-on-trustworthy-ai-2/), Frankfurt, Germany, 25-26 March 2025
 *   Panel Presentation "AI Security and Trustworthiness: Technical and Societal Views", [Trust in Digital Life](https://trustindigitallife.eu/event/secure-trustworthy-of-ai-applications/), online, 14 February 2025
 *   Panel Presentation "Towards Trust-Aware Automotive Task Offloading", [ETSI MEC - Cybersecurity at the Edge](https://mecwiki.etsi.org/index.php?title=Cybersecurity_at_the_Edge), Athens, Greece, 10 December 2024
 *   Presentation "Inputs by Cluster 5 "KET" to Large-scale Deomonstrations", [CCAM Association Multicluster Meeting](https://www.ccam.eu/october-ccam-multicluster-meeting-checkpoint-for-the-ccam-partnership/), Brussels, Belgium, 10 October 2024
