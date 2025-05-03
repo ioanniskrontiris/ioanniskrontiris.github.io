@@ -76,8 +76,9 @@ nav_order: 4
     
 
 #### Program Committee Member
-*   22nd [escar Europe](https://www.escar.info/escar-europe.html), November 19-20, 2024, Dortmund, Germany
+*   23rd [escar Europe](https://www.escar.info/escar-europe.html), November 5-6, 2025, Frankfurt, Germany
 *   Trust, Privacy & Security Symposium in International Wireless Communications and Mobile Computing Conference ([IWCMC 2024](https://iwcmc.net/2024/Symposia.php)),  Ayia Napa, Cyprus, May 27 - 31, 2024
+*   22nd [escar Europe](https://www.escar.info/escar-europe.html), November 19-20, 2024, Dortmund, Germany
 *   21st [escar Europe](https://www.escar.info/escar-europe.html), November 15-16, 2023, Hamburg, Germany
 *   Trust, Privacy & Security Symposium in International Wireless Communications and Mobile Computing Conference ([IWCMC 2023](http://iwcmc.org/2023/)), Marrakesh, Morocco, 19 - 23 June 2023  
 *   4th Location Privacy Workshop (LPW 2022) at IEEE Euro S&P - University of Genoa/CINI, Genoa, Italy, June 10, 2022  
