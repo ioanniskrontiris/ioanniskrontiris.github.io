@@ -28,7 +28,7 @@ An overview of my current and past positions:
 
 My PhD research was focused on Security in Connected Smart Objects. Since then I have broadened my interests to include the following topics:
 
-* **Authenticated Delegation and Authorized AI Agents**
+* **Security of AI Agents**
 Secure delegation of AI agents on top of protocols such as A2A and MCP, focusing on privacy-respecting identity binding, human-in-the-loop consent, and policy-based authorization.
 
 * **Trustworthy AI**
