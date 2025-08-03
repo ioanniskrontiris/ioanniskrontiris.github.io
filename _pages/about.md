@@ -28,9 +28,18 @@ An overview of my current and past positions:
 
 My PhD research was focused on Security in Connected Smart Objects. Since then I have broadened my interests to include the following topics:
 
-*   Trustworthy AI  
-*   Security, Privacy and Trust in Connected and Automated Vehicles
-*   Identity Management - Self-Sovereign Identity, Digital Identity Wallets
-*   Privacy Enhancing Technologies - Privacy by Design, Privacy Engineering, Privacy Design Patterns
-*   Anonymization algorithms based on differential privacy for big data - special focus on data mining algorithms (e.g. classification)
-  
+* **Trustworthy AI**
+Development of methods and frameworks for assessing the trustworthiness of AI systems, such as Bias, particularly in critical infrastructure and regulated environments. Contributions include dataset bias assessment, subjective logic models for trust, and evidence-based reasoning in multi-agent AI settings.
+
+* **Authenticated Delegation and Authorized AI Agents**
+Secure delegation of AI agents on top of protocols such as A2A and MCP, focusing on privacy-respecting identity binding, human-in-the-loop consent, and policy-based authorization.
+
+* **Cybersecurity and Privacy in Connected & Automated Mobility (C-ITS & CCAM)**
+Architecture design and security protocols for vehicle-to-everything (V2X) communication and connected mobility ecosystems. Focus areas include direct anonymous attestation (DAA), trust management for cooperative systems, and privacy-preserving revocation mechanisms in C-ITS.
+
+* **Digital Identity and Self-Sovereign Identity (SSI)**
+Design, evaluation, and piloting of decentralized identity infrastructures, including EUDI-compliant digital wallets and identity federation across borders and organizations. Research combines cryptographic assurance (e.g., selective disclosure, zero-knowledge proofs) with policy and interoperability layers.
+
+* **Privacy Engineering and Privacy-Enhancing Technologies (PETs)**
+End-to-end integration of privacy principles into system architecture, including privacy by design methodologies, privacy design patterns, and compliance-aligned privacy threat modeling. Longstanding contributor to PET development in EU research and standardization contexts.
+
