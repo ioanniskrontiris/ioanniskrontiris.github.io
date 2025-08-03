@@ -28,17 +28,17 @@ An overview of my current and past positions:
 
 My PhD research was focused on Security in Connected Smart Objects. Since then I have broadened my interests to include the following topics:
 
-* **Trustworthy AI**
-Development of methods and frameworks for assessing the trustworthiness of AI systems, such as Bias, particularly in critical infrastructure and regulated environments. Contributions include dataset bias assessment, subjective logic models for trust, and evidence-based reasoning in multi-agent AI settings.
-
 * **Authenticated Delegation and Authorized AI Agents**
 Secure delegation of AI agents on top of protocols such as A2A and MCP, focusing on privacy-respecting identity binding, human-in-the-loop consent, and policy-based authorization.
 
-* **Cybersecurity and Privacy in Connected & Automated Mobility (C-ITS & CCAM)**
-Architecture design and security protocols for vehicle-to-everything (V2X) communication and connected mobility ecosystems. Focus areas include direct anonymous attestation (DAA), trust management for cooperative systems, and privacy-preserving revocation mechanisms in C-ITS.
+* **Trustworthy AI**
+Development of methods and frameworks for assessing the trustworthiness of AI systems, such as Bias, particularly in critical infrastructures and regulated environments. Contributions include dataset bias assessment, subjective logic models for trust, and evidence-based reasoning in multi-agent AI settings.
 
-* **Digital Identity and Self-Sovereign Identity (SSI)**
-Design, evaluation, and piloting of decentralized identity infrastructures, including EUDI-compliant digital wallets and identity federation across borders and organizations. Research combines cryptographic assurance (e.g., selective disclosure, zero-knowledge proofs) with policy and interoperability layers.
+* **Identity Management and Digital Identity Wallets**
+Cryptographic identity architectures supporting unlinkability, selective disclosure, and zero-knowledge proofs.  Achieving higher level of assurance in privacy-preserving identity wallets through trusted computing. User acceptance factors for selective disclosure on identity wallets through real-worl deployments and user studies.
+
+* **Cybersecurity and Privacy in Connected & Automated Mobility (C-ITS & CCAM)**
+Trustworthiness assessment in multi-agent and distributed systems based on subjective logic. Privacy-respecting security architectures for V2X systems, including pseudonym schemes, revocation strategies, and comparative evaluations of credential technologies such as PKI and Direct Anonymous Attestation (DAA).
 
 * **Privacy Engineering and Privacy-Enhancing Technologies (PETs)**
 End-to-end integration of privacy principles into system architecture, including privacy by design methodologies, privacy design patterns, and compliance-aligned privacy threat modeling. Longstanding contributor to PET development in EU research and standardization contexts.
