@@ -18,6 +18,7 @@ nav_order: 4
 
 ### Talks and Panels
 
+*   Presentation "Extending Trusted Path Routing: Dynamic Trust Evaluation with Runtime Evidence", [IETF 123](https://www.ietf.org/meeting/123/) - RATS, Madrid, Spain, 25 July 2025.
 *   Panel Presentation "Trusted Path Routing & Path Validation for Beyond 5G Networks", [2025 EuCNC & 6G Summit](https://www.eucnc.eu/), Frankfurt, Germany, 4 June 2025
 *   Panel Presentation "AI Trustworthiness in 6G", [CONNECT AI Trustworthiness Workshop](https://horizon-connect.eu/workshop-on-trustworthy-ai-2/), Frankfurt, Germany, 25-26 March 2025
 *   Panel Presentation "AI Security and Trustworthiness: Technical and Societal Views", [Trust in Digital Life](https://trustindigitallife.eu/event/secure-trustworthy-of-ai-applications/), online, 14 February 2025
