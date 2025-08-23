@@ -1,12 +1,40 @@
 ---
 layout: page
 title: ESSIF-Lab Project - DOOR 
-description: a project with a background image and giscus comments
+description: DOOR - Hardware Roots of Trust as an Enabler of Trustworthiness in Digital Transactions
 img: assets/img/DOOR_logo.png
 importance: 2
 category: work
 giscus_comments: false
 ---
+
+# DOOR – Hardware Roots of Trust as an Enabler of Trustworthiness in Digital Transactions
+
+**Duration:** October 2021 – June 2022  
+**Funding:** EU H2020, NGI eSSIF-Lab (Cascading Grant)  
+**Consortium:** UBITECH (Greece), Huawei Research Munich (Germany), Verifiable Credentials Ltd (UK)  
+**Role:** Proposal Author & Project Partner   
+
+---
+
+## Facts
+
+- Awarded under an **open call of NGI eSSIF-Lab** as a sub-grant project.  [Project description at eSSIF-Lab](https://essif-lab.eu/hardware-roots-of-trust-as-an-enabler-of-trustworthiness-in-digital-transactions-by-ubitech/)
+- Objective: **increase trust in digital transactions** by integrating a **hardware-based root of trust** into the Self-Sovereign Identity (SSI) ecosystem.  
+- Designed a **wallet-side hardware component** for secure key management and for binding **Verifiable Credentials (VCs)** to the wallet.  
+- Supports **higher assurance levels** in SSI systems, ensuring credential provenance and integrity.  
+- Developed as a **wallet-agnostic solution**, interoperable across different SSI frameworks (e.g. W3C, Hyperledger Indy).  
+- Results implemented in close collaboration with UBITECH and partners.  
+
+---
+
+## Artifact
+
+The project produced a **demo implementation** showcasing the integration of hardware roots of trust into Digital Identity wallets.  
+[View the DOOR demo artifact on GitHub](https://github.com/Door-project/videos/releases/tag/Demo)
+
+## Description of the innovation
+  
 
 In the case of Europe, the eIDAS regulation clearly defines the requirements for authentication factors to achieve a certain level of assurance (LoA). Bare proof-of-possession of a private key does not achieve even the lowest level of assurance in eIDAS, since it involves only a single authentication factor. The SSI eIDAS Bridge, which was developed within the H2020 NGI ESSIF Lab project, makes eIDAS available as a trust framework for the SSI ecosystem. The aim of the SSI eIDAS Bridge is precisely to get, at least, eIDAS LoA Substantial. That means working in the DID control keys, possible aligned with the eIDA eSign/eSeal regulation. So, it is an approach to make eIDAS available as a trust framework for the SSI ecosystem.
 
