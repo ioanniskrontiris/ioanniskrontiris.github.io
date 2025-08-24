@@ -8,13 +8,13 @@ category: work
 related_publications: 10538525
 ---
 
-[PRIVÉ](https://trustchain.ngi.eu/prive/) was funded as a sub-grantee of [TrustChain](https://trustchain.ngi.eu/) (Open Call 1 – Decentralised Digital Identity). TrustChain is part of the European Commission’s Next Generation Internet (NGI) initiative. 
+**Project Name:** PRIVÉ – Achieving Higher Level of Assurance in Privacy-Preserving Identity Wallets  
+**Duration:** October 2023 – April 2024  
+**Funding:** Sub-grantee of [TrustChain](https://trustchain.ngi.eu/) (Open Call 1 – Decentralised Digital Identity)  
+**Consortium:** [UBITECH Ltd](https://www.ubitech.eu) and [Homo Digitalis](https://homodigitalis.gr/en/)  
+**My Role:** Proposal Author & Project Partner  
 
-The project took place during the period October 2023 - April 2024 and it was a collaborative effort involving two partners: [UBITECH Ltd](https://www.ubitech.eu) and [Homo Digitalis](https://homodigitalis.gr/en/).
-
-PRIVÉ designs and demonstrates a solution that uses anonymous credentials in [EU Digital Identity Wallet (EUDI)](https://ec.europa.eu/digital-building-blocks/sites/display/EUDIGITALIDENTITYWALLET/EU+Digital+Identity+Wallet+Home). Through this cryptographic mechanism, EUDI achieves secure and privacy-preserving authentication and identification. 
-
-Anonymous credentials enable selective disclosure. The user may choose to reveal a subset of his credential attributes, or nothing at all other than the fact that his attributes satisfy a given policy. The user then convinces the verifier, via a zero-knowledge proof, of the authenticity of the disclosed information.
+---
 
 ## The problem statement 
 
