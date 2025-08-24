@@ -1,80 +1,35 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
+title: V2X-DAA
+description: Direct Anonymous Attestation (DAA) as an alternative trust model for V2X security
 img: assets/img/1.jpg
 importance: 3
-category: fun
+category: work
+related_publications:
+  - 10136316
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**Project Name:** V2X-DAA — DAA-enabled Security for Cooperative, Connected & Automated Mobility (CCAM)  
+**Duration:** 2022–2023 *(internal bilateral R&D)*  
+**Funding:** Bilateral industry collaboration (Huawei Technologies Europe – UBITECH)  
+**Consortium:** Huawei Technologies Düsseldorf GmbH (European Research Center, Munich), UBITECH (Digital Security & Trusted Computing Group, Athens)  
+**My Role:** Co-PI / Technical lead for architecture & evaluation
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## About
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+- **Goal.** Investigate Direct Anonymous Attestation (DAA) as an alternative (or complement) to PKI for V2X, focusing on **scalability, privacy, revocation, and pseudonym lifecycle**.  
+- **What we built.** An end-to-end **DAA-based credentialing flow** on V2X-grade hardware (TPM-backed keys) and a **PKI baseline**, both integrated with an ETSI-aligned V2X communication stack (CAM/DENM) to enable like-for-like measurements.  
+- **How we evaluated.** Methodological comparison on a realistic testbed (multiple simulated vehicles and message rates): crypto cost (sign/verify), **E2E network latency under load**, **pseudonym issuance/reloading**, and **revocation**.  
+- **Key findings.**
+  - DAA enables **local self-issuance of pseudonyms** under hardware key-use policies, eliminating periodic “refill” trips to a PCA.  
+  - **Revocation in DAA** can invalidate *all* of a vehicle’s pseudonyms in one action (no CRLs or per-pseudonym resolution), offering operational advantages at scale.  
+  - At high channel loads, **network/stack bottlenecks dominate**; DAA’s heavier crypto becomes less decisive for E2E latency—supporting a **hybrid/combined** approach rather than “PKI vs DAA” as a binary choice.  
+  - Full details and results are published in our IEEE VNC paper {% cite 10136316 %}.  
+- **Outcome.** The project delivered the **first implementation and experimental comparison** of DAA vs. PKI for V2X, informing standards discussions and future **hybrid trust models**.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+**Links:** [IEEE VNC 2023 paper](https://ieeexplore.ieee.org/document/10136316) {% cite 10136316 %} • [UBITECH project announcement](https://ubitech.eu/ubitech-has-been-awarded-a-research-grant-on-v2x-communication-security-from-a-multinational-technology-company/)
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+---
