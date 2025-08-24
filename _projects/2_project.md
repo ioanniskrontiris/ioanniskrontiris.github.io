@@ -8,11 +8,11 @@ category: work
 giscus_comments: false
 ---
  
-**Project Name:** DOOR – Hardware Roots of Trust as an Enabler of Trustworthiness in Digital Transactions
-**Duration:** October 2021 – June 2022
-**Funding:** EU H2020, NGI eSSIF-Lab (Cascading Grant)  
-**Consortium:** UBITECH (Greece), Huawei Research Munich (Germany), Verifiable Credentials Ltd (UK)  
-**Role:** Proposal Author & Project Partner   
+- **Project Name:** DOOR – Hardware Roots of Trust as an Enabler of Trustworthiness in Digital Transactions
+- **Duration:** October 2021 – June 2022
+- **Funding:** EU H2020, NGI eSSIF-Lab (Cascading Grant)  
+- **Consortium:** UBITECH (Greece), Huawei Research Munich (Germany), Verifiable Credentials Ltd (UK)  
+- **Role:** Proposal Author & Project Partner   
 
 ---
 
