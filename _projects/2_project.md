@@ -24,7 +24,7 @@ giscus_comments: false
 - Supports **LoA High** for digital identity wallets, ensuring credential provenance and integrity.  
 - Developed as a **wallet-agnostic solution**, interoperable across different SSI frameworks (e.g. W3C, Hyperledger Indy).  
 - Demo Implementation: The project produced a **demo implementation** showcasing the integration of hardware roots of trust into Digital Identity wallets.  [View the DOOR demo artifact on GitHub](https://github.com/Door-project/videos/releases/tag/Demo)
-- Our follow-up Project, "PRIVE", 
+
 ---
 
 ## Description of the innovation
