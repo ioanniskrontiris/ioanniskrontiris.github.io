@@ -7,6 +7,8 @@ importance: 6
 category: work
 related_publications:
   - 10136316
+  - wisec21
+  - krontiris2019ares
 ---
 
 
@@ -14,22 +16,43 @@ related_publications:
 **Duration:** 2022–2023 *(internal bilateral R&D)*  
 **Funding:** Bilateral industry collaboration (Huawei Technologies Europe – UBITECH)  
 **Consortium:** Huawei Technologies Düsseldorf GmbH (European Research Center, Munich), UBITECH (Digital Security & Trusted Computing Group, Athens)  
+**Links:** [UBITECH announcement](https://ubitech.eu/ubitech-has-been-awarded-a-research-grant-on-v2x-communication-security-from-a-multinational-technology-company/)
 **My Role:** Co-PI / Technical lead for architecture & evaluation
 
 ---
 
-## About
+## TL;DR (30 seconds)
 
-- **Goal.** Investigate Direct Anonymous Attestation (DAA) as an alternative (or complement) to PKI for V2X, focusing on **scalability, privacy, revocation, and pseudonym lifecycle**.  
-- **What we built.** An end-to-end **DAA-based credentialing flow** on V2X-grade hardware (TPM-backed keys) and a **PKI baseline**, both integrated with an ETSI-aligned V2X communication stack (CAM/DENM) to enable like-for-like measurements.  
-- **How we evaluated.** Methodological comparison on a realistic testbed (multiple simulated vehicles and message rates): crypto cost (sign/verify), **E2E network latency under load**, **pseudonym issuance/reloading**, and **revocation**.  
-- **Key findings.**
-  - DAA enables **local self-issuance of pseudonyms** under hardware key-use policies, eliminating periodic “refill” trips to a PCA.  
-  - **Revocation in DAA** can invalidate *all* of a vehicle’s pseudonyms in one action (no CRLs or per-pseudonym resolution), offering operational advantages at scale.  
-  - At high channel loads, **network/stack bottlenecks dominate**; DAA’s heavier crypto becomes less decisive for E2E latency—supporting a **hybrid/combined** approach rather than “PKI vs DAA” as a binary choice.  
-  - Full details and results are published in our IEEE VNC paper {% cite 10136316 %}.  
-- **Outcome.** The project delivered the **first implementation and experimental comparison** of DAA vs. PKI for V2X, informing standards discussions and future **hybrid trust models**.
-
-**Links:** [IEEE VNC 2023 paper](https://ieeexplore.ieee.org/document/10136316) {% cite 10136316 %} • [UBITECH project announcement](https://ubitech.eu/ubitech-has-been-awarded-a-research-grant-on-v2x-communication-security-from-a-multinational-technology-company/)
+- **Problem:** PKI-based V2X scales poorly and strains privacy: bulk pseudonym provisioning, CRLs, and backend dependency. {% cite krontiris2019ares %}
+- **Idea:** Move trust to the **vehicle** using **Direct Anonymous Attestation (DAA)** + TPM. Vehicles **self-issue** unlinkable pseudonyms; revocation is **device-enforced** (no CRLs). {% cite wisec21 %}
+- **Evidence:** We built both **PKI** and **DAA** pipelines on an ETSI-aligned V2X stack and measured them head-to-head. Under realistic channel loads, end-to-end latency **converges**, while DAA delivers **cleaner revocation** and **no refill logistics**. {% cite 10136316 %}
 
 ---
+
+## Why PKI struggles at scale
+Modern SCMS/CCMS deployments rely on central authorities to mint and refresh thousands of short-lived pseudonyms per vehicle and to distribute revocation state. This is operationally heavy, connectivity-sensitive, and creates privacy pressure even with separation-of-duties. {% cite krontiris2019ares %}
+
+## Our approach: vehicle-centric trust with DAA
+We designed a V2X security architecture that anchors trust **in the vehicle**:
+
+- **On-board pseudonym self-issuance.** A TPM creates and protects pseudonym keys; messages are signed with **anonymous, unlinkable** DAA signatures. {% cite wisec21 %}
+- **Hardware-enforced policies.** A **revocation index** inside the TPM binds each pseudonym to two states:
+  - **Soft revocation:** disable a specific pseudonym.
+  - **Hard revocation:** disable **all** pseudonyms of a vehicle in one shot. {% cite wisec21 %}
+- **Privacy-preserving control plane.** Vehicles register only cryptographic **revocation hashes** (“Proof of Registration”); **no identity resolution** is needed to revoke. {% cite wisec21 %}
+
+## What we actually built
+- A full **DAA pipeline** (JOIN → self-issuance → sign/verify → soft/hard revocation) on V2X-grade hardware, and a **PKI baseline** (OpenSSL/ECDSA), both integrated with an ETSI-aligned CAM/DENM stack for like-for-like measurement. {% cite 10136316 %}
+- A testbed exercising **crypto cost**, **end-to-end latency** under increasing message rates, **pseudonym lifecycle**, and **revocation workflows**. {% cite 10136316 %}
+
+## Key results (what changed)
+- **Revocation becomes practical.** One signed broadcast from the RA triggers **local** (TPM-enforced) revocation—either a single pseudonym or the entire set. **No CRLs, no identity resolution.** {% cite wisec21 %}{% cite 10136316 %}
+- **Self-issuance removes refill logistics.** Pseudonyms are generated on-board under TPM policy; back-end load and connectivity assumptions drop dramatically. {% cite 10136316 %}
+- **Latency remains viable.** Although DAA signatures are heavier than ECDSA in isolation, under realistic channel loads the **network/stack dominates**, and **DAA ≈ PKI** in end-to-end latency—so DAA is **practically deployable** for safety messaging. {% cite 10136316 %}
+
+## Why this matters
+- **Scalability:** Eliminates bulk certificate manufacturing, distribution, and storage at fleet scale. {% cite krontiris2019ares %}
+- **Privacy by design:** Unlinkable, on-device credentials minimize tracking risk while preserving verifiability. {% cite wisec21 %}
+- **Operational security:** A **device kill-switch** for misbehavior (hard revoke) with immediate effect, without revealing or resolving long-term identity. {% cite wisec21 %}
+
+**Publications:** Positioning & motivation {% cite krontiris2019ares %} • Revocation protocol & TPM design {% cite wisec21 %} • Experimental head-to-head PKI vs DAA {% cite 10136316 %}
