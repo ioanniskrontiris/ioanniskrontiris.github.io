@@ -7,7 +7,15 @@ importance: 4
 category: work
 ---
 
-Horizon Europe project [CONNECT](https://horizon-connect.eu/) is a Horizon Europe-funded initiative focused on enhancing trust and resilience in Cooperative, Connected, and Automated Mobility (CCAM) systems. With a budget of €5.7 million and a consortium of 16 leading academic, industrial, and research partners across Europe, CONNECT addresses critical challenges in ensuring secure, reliable, and interoperable mobility ecosystems. Running from September 2022 to August 2025, the project is part of the [Cyber secure and resilient CCAM](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2021-d6-01-04) call, reflecting its strategic importance in advancing the security and robustness of next-generation mobility solutions. CONNECT is one of the Cluster 5 projects of [CCAM Association](https://www.ccam.eu/what-is-ccam/ccam-association/).
+- **Project Name:** CONNECT – Continuous and Efficient Cooperative Trust Management for Resilient CCAM  
+- **Duration:** September 2022 – August 2025
+- **Links:** [Project website](https://horizon-connect.eu/) • [CORDIS entry](https://cordis.europa.eu/project/id/101069688) • [CCAM Association project page](https://www.ccam.eu/projects/connect/)  [oai_citation:7‡Horizon Connect](https://horizon-connect.eu/) [oai_citation:8‡CORDIS](https://cordis.europa.eu/project/id/101069688/results?utm_source=chatgpt.com) [oai_citation:9‡CCAM](https://www.ccam.eu/projects/connect/?utm_source=chatgpt.com)  
+- **Funding:** Horizon Europe (Grant 101069688), €5.66M  
+- **Programme & call:** Funded under **Horizon Europe — CCAM (Cluster 5)**, topic group **HORIZON-CL5-2021-D6-01 (Cyber-secure & resilient CCAM)**.  [oai_citation:4‡Horizon Connect](https://horizon-connect.eu/) [oai_citation:5‡European Commission](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2021-d6-01-01)  
+- **Consortium:** 16 partners across 8 countries (Coordinator: TECHNIKON; core partners include UBITECH, University of Ulm, Huawei Technologies Duesseldorf GmbH)  
+- **My Role:** Project Proposal Author & Internal Project Manager for Huawei  
+
+---
 
 CONNECT uses a mathematical model that builds a comprehensive Trust Assessment Framework for CCAM and C-ITS on top of subjective logic and trust network analysis. The biggest achievement of the project is that it addresses the convergence of security and safety in CCAM by assessing dynamic trust relationships and defining a trust model and trust reasoning framework based on which involved entities can establish trust for cooperatively executing safety-critical functions. 
 

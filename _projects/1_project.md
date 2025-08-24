@@ -41,7 +41,6 @@ PRIVÉ has added an extra layers of security on top of DAA-A by constructing pol
 * One such policy ensures the binding of the DAA Key to the Holder's authenticated Wallet, which in turn enables the binding of the issued identity data to the Holder as the intended recipient. This is done by the VC Issuer through binding issued attributes to the anonymized part of the DAA credential.  
 * An additional policy binds the use of the DAA Key with the configuration of the wallet, so that it can be used if and only if the Wallet software integrity has not been altered in an unauthenticated manner. 
 
-More details can be found in our paper [@Prive2024_10538525].
 More details can be found in our paper {% cite Prive2024_10538525 %}.
 
 ## Implementation: The Trusted Component (TC) Bridge
