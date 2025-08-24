@@ -42,6 +42,7 @@ PRIVÉ has added an extra layers of security on top of DAA-A by constructing pol
 * An additional policy binds the use of the DAA Key with the configuration of the wallet, so that it can be used if and only if the Wallet software integrity has not been altered in an unauthenticated manner. 
 
 More details can be found in our paper [@Prive2024_10538525].
+More details can be found in our paper {% cite Prive2024_10538525 %}.
 
 ## Implementation: The Trusted Component (TC) Bridge
 
