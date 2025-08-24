@@ -41,6 +41,8 @@ We designed a V2X security architecture that anchors trust **in the vehicle**:
   - **Hard revocation:** disable **all** pseudonyms of a vehicle in one shot. {% cite wisec21 %}
 - **Privacy-preserving control plane.** Vehicles register only cryptographic **revocation hashes** (“Proof of Registration”); **no identity resolution** is needed to revoke. {% cite wisec21 %}
 
+<img src="/assets/img/DAA-daanym.png" width="700">
+
 ### What we actually built
 - A full **DAA pipeline** (JOIN → self-issuance → sign/verify → soft/hard revocation) on V2X-grade hardware, and a **PKI baseline** (OpenSSL/ECDSA), both integrated with an ETSI-aligned CAM/DENM stack for like-for-like measurement. {% cite vnc2023 %}
 - A testbed exercising **crypto cost**, **end-to-end latency** under increasing message rates, **pseudonym lifecycle**, and **revocation workflows**. {% cite vnc2023 %}
