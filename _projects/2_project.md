@@ -47,9 +47,3 @@ DAA’s built-in key hierarchy, supported by the secure element’s **Endorsemen
 
 
 
-### References
-
-- SSI eIDAS Bridge — [NGI eSSIF-Lab Project Description](https://essif-lab.eu)  
-- TRAIN: A lightweight trust management infrastructure for SSI — Kubach & Roßnagel (2021)  [oai_citation:5‡oid2021.compute.dtu.dk](https://oid2021.compute.dtu.dk/Kubach%20Rossnagel%20OID%202021%20Trust%20Infrastructure%20for%20SSI.pdf?utm_source=chatgpt.com) [oai_citation:6‡ioanniskrontiris.github.io](https://ioanniskrontiris.github.io/projects/2_project/?utm_source=chatgpt.com)  
-- TRAIN Infrastructure Overview — Fraunhofer IAO  [oai_citation:7‡hci.iao.fraunhofer.de](https://www.hci.iao.fraunhofer.de/de/identity-management/identity-und-accessmanagement/TRAIN_EN.html?utm_source=chatgpt.com)  
-- Verifying Credentials with TRAIN — NGI blog  [oai_citation:8‡Next Generation Internet](https://ngi.eu/blog/2022/07/28/verifying-identity-management-credentials-with-train/?utm_source=chatgpt.com)
