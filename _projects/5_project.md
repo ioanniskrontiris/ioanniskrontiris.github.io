@@ -2,8 +2,8 @@
 layout: page
 title: V2X-DAA
 description: Direct Anonymous Attestation (DAA) as an alternative trust model for V2X security
-img: assets/img/1.jpg
-importance: 3
+img: assets/img/v2xdaalogo3.png
+importance: 6
 category: work
 related_publications:
   - 10136316
