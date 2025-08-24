@@ -9,7 +9,7 @@ giscus_comments: false
 ---
  
 **Project Name:** DOOR – Hardware Roots of Trust as an Enabler of Trustworthiness in Digital Transactions
-**Duration:** October 2021 – June 2022  
+**Duration:** October 2021 – June 2022
 **Funding:** EU H2020, NGI eSSIF-Lab (Cascading Grant)  
 **Consortium:** UBITECH (Greece), Huawei Research Munich (Germany), Verifiable Credentials Ltd (UK)  
 **Role:** Proposal Author & Project Partner   
@@ -33,7 +33,7 @@ In Europe, the **eIDAS regulation** defines authentication factors required to a
 
 The **[SSI eIDAS Bridge](https://essif-lab.eu)**, developed under the H2020 NGI ESSIF-Lab project, brings eIDAS as a trust framework into the Self-Sovereign Identity (SSI) ecosystem. It aims to reach at least **eIDAS LoA Substantial** by incorporating control mechanisms over DIDs (aligned with eIDAS eSign/eSeal standards) into DID control keys. This approach strengthens trust by extending legal electronic identification into the SSI domain.
 
-That said, the SSI eIDAS Bridge remains limited to eIDAS-specific applications and the broader European trust domain. As an alternative, [TRAIN](https://ngi.eu/funded_solution/essi_ioc_38/) proposed a lightweight trust management infrastructure, which leverages the global Domain Name System (DNS). TRAIN enables **decentralized, policy-driven trust decisions** within SSI ecosystems.
+That said, the SSI eIDAS Bridge remains limited to eIDAS-specific applications and the broader European trust domain. As an alternative, **[TRAIN](https://ngi.eu/funded_solution/essi_ioc_38/)** proposed a lightweight trust management infrastructure, which leverages the global Domain Name System (DNS). TRAIN enables **decentralized, policy-driven trust decisions** within SSI ecosystems.
 
 A core challenge in SSI is verifying the **integrity and origin** of Verifiable Credentials (VCs): how can a verifier be certain that the credentials truly belong to the claimed entity? Technically, users (as Identity Owners) control their VCs and DIDs through their wallets—but since the private key resides solely with them, this implies **sole reliance on software-based key control**. That raises trustworthiness concerns: how can a verifier know that a wallet’s key hasn't been compromised?
 
@@ -41,7 +41,7 @@ A core challenge in SSI is verifying the **integrity and origin** of Verifiable 
 
 The **DOOR project** (Hardware Roots of Trust as an Enabler of Trustworthiness in Digital Transactions) offers a robust solution. It strengthens trust in the SSI ecosystem by incorporating **hardware-based Roots of Trust**, such as TPMs, TEEs, DICE, and similar secure elements. At its core, DOOR uses advanced cryptographic primitives (**Direct Anonymous Attestation (DAA)**) to generate hardware-based keys that are **tightly bound to a wallet’s VC**. This binding provides verifiable evidence of a credential's origin and integrity.
 
-Through DOOR, crypto operations intrinsic to DAA—like ECC key generation, blind signatures, and zero-knowledge proofs, enable additional trust assurances: issued VCs are bound to specific wallets, and only usable if the **DAA-Bridge Extension** confirms wallet correctness (i.e., that the private key hasn't been compromised). A DAA scheme lets a signer prove possession of a credential without revealing identity, enhancing both privacy and trust.
+Through DOOR, crypto operations intrinsic to DAA, like ECC key generation, blind signatures, and zero-knowledge proofs, enable additional trust assurances: issued VCs are bound to specific wallets, and only usable if the **DAA-Bridge Extension** confirms wallet correctness (i.e., that the private key hasn't been compromised). A DAA scheme lets a signer prove possession of a credential without revealing identity, enhancing both privacy and trust.
 
 DAA’s built-in key hierarchy, supported by the secure element’s **Endorsement Key**, allows verifiers to assess the wallet’s configuration and execution state. Essentially, the DAA-Bridge Extension prohibits use of a VC or Verifiable Presentation unless the device is in a **correct, uncompromised state**. Only then is a valid, pairing-friendly elliptic curve (ECC) signature produced—distinct from traditional PKI where a centralized CA binds identities to keys.
 
