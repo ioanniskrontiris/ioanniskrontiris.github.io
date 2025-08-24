@@ -5,12 +5,25 @@ description: FP7 project - A unified architecture for Anonymous Credentials
 img: assets/img/abc4trust_logo.png
 importance: 5
 category: work
-related_publications: Prive2024_10538525, apf
+related_publications:
+  - trustbus
+  - bichsel2015architecture
+  - benenson2014user
+  - veseli2014towards
+  - sabouri2014trust
+  - stamatiou2015course
+  - soups
+  - apf
+  - h2.1
+  - d2.1
 ---
 
-[ABC4Trust](http://abc4trust.eu/) was a project that received research funding from the 7th Research Framework Program (FP7) of the  EU as part of the Trust & Security Program. 
-
-The project took place during the period November 2010 – February 2015 and it was a collaborative effort involving [12 partners](https://abc4trust.eu/home/consortium) from industry, academia, research centres and data protection authorities.
+- **Project Name:** ABC4Trust – Attribute-based Credentials for Trust  
+- **Duration:** November 2010 – February 2015 (52 months)  
+- **Links:** [Project website](https://abc4trust.eu) • [CORDIS entry](https://cordis.europa.eu/project/id/257782) 
+- **Funding:** EU FP7 ICT (Grant 257782) • EU contribution ≈ €8.85M (total cost ≈ €13.06M)  
+- **Consortium:** [12 partners](https://abc4trust.eu/home/consortium) from industry, academia, research centres and data protection authorities.  
+- **My Role:** Overall Project Coordinator and Architecture WP Leader  
 
 
 ### Anonymous Authentication with Anonymous Credentials
@@ -32,19 +45,19 @@ Anonymous credentials provide a solution that satisfy the above properties. They
 1.	**Idemix** (Identity Mixer): Idemix is a cryptographic protocol designed for multi-use anonymous credentials. It allows users to prove possession of certain attributes (like age or membership) without revealing their full identity. Idemix uses advanced cryptographic techniques, including zero-knowledge proofs and special digital signatures, enabling users to authenticate multiple times while ensuring that their interactions cannot be linked to each other. This makes it a powerful tool for scenarios requiring repeated authentication with strong privacy guarantees.
 2.	**U-Prove**: U-Prove is an example of single-use anonymous credentials. It allows users to generate a credential for a specific purpose and use it only once, ensuring that even if multiple verifications occur, they cannot be linked back to the user. U-Prove achieves this based on blind cryptographic protocols designed by Stefan Brands, where the credential is issued in such a way that the issuer cannot later trace its use. This makes U-Prove highly efficient and ideal for applications like digital coupons, voting, or single-use tokens.
 
-Both solutions implement selective disclosure using their underlying cryptographic primitives. The development of U-Prove and Idemix resulted in the ABC4Trust project that brought together both technologies and aimed to define a unified architecture for federating and interchanging different cryptographic primitivies to implement anonymous credentials. Both Idemix and U-Prove were integrated into its architecture.
+Both solutions implement selective disclosure using their underlying cryptographic primitives. The development of U-Prove and Idemix resulted in the ABC4Trust project that brought together both technologies and aimed to define a unified architecture for federating and interchanging different cryptographic primitivies to implement anonymous credentials. Both Idemix and U-Prove were integrated into its architecture [@bichsel2015architecture].
 	
 ### Waht ABC4Trust achieved
 
 The ABC4Trust project achieved several key milestones in its efforts to enhance privacy and identity protection on the Internet through the use of cryptographic technologies:
 
-1. **Development of a Unified Architecture**: ABC4Trust successfully defined a common, unified architecture for Attribute-Based Credential (ABC) systems. This architecture allows for the comparison of different ABC systems and facilitates their integration on common platforms[3].
+1. **Unified Architecture**: ABC4Trust successfully defined a common, unified architecture for Attribute-Based Credential (ABC) systems. This architecture allows for the comparison of different ABC systems and facilitates their integration on common platforms [@bichsel2015architecture; @h2.1; @d2.1].
 
-2. **Open Reference Implementations**: The project delivered open reference implementations of selected ABC systems, which were deployed in real-world production pilots. These implementations demonstrated the practical application of privacy-preserving technologies in various contexts[3].
+2. **Open Reference Implementations**: The project delivered open reference implementations of selected ABC systems, which were deployed in real-world production pilots. These implementations demonstrated the practical application of privacy-preserving technologies in various contexts [@stamatiou2015course; @soups].
 
-3. **Pilot Projects**: Two pilot sites were established at Patras University in Greece and Norrtullskolan secondary school in Sweden. These pilots tested privacy-enabling technology for school portals and electronic evaluation of university courses, allowing users to prove specific attributes without revealing their full identities[3].
+3. **Pilot Projects**: Two pilot sites were established at Patras University in Greece and Norrtullskolan secondary school in Sweden. These pilots tested privacy-enabling technology for school portals and electronic evaluation of university courses, allowing users to prove specific attributes without revealing their full identities [@stamatiou2015course].
 
-4. **Interoperability of Technologies**: ABC4Trust contributed to standardization efforts by aligning with relevant ISO/IEC projects and contributing to drafts such as ISO/IEC 29101 (Privacy Architecture Framework) and ISO/IEC 29191 (Requirements for partially anonymous, partially unlinkable authentication). It also developed a metrics framework for comparing different ABC systems. This framework helps in assessing and ensuring the compatibility and interoperability of various ABC technologies.
+4. **Interoperability of Technologies**: ABC4Trust contributed to standardization efforts by aligning with relevant ISO/IEC projects and contributing to drafts such as ISO/IEC 29101 (Privacy Architecture Framework) and ISO/IEC 29191 (Requirements for partially anonymous, partially unlinkable authentication). It also developed a metrics framework for comparing different ABC systems. This framework helps in assessing and ensuring the compatibility and interoperability of various ABC technologies [@apf].
 
-5. **New Technology Adoption Model for PETs**: ABC4Trust was the first project to study the factors influencing adoption of PETs by end-users. It extended the traditional Technology Acceptance Model (TAM) and tailored it for privacy-enhancing technologies (PETs), making it more applicable to understanding user adoption in security and privacy contexts. Additionally, it is among the first to empirically test these constructs in a real-world trial, providing valuable insights into the factors that influence the acceptance of anonymous credentials in practical scenarios. 
+5. **New Technology Adoption Model for PETs**: ABC4Trust was the first project to study the factors influencing adoption of PETs by end-users. It extended the traditional Technology Acceptance Model (TAM) and tailored it for privacy-enhancing technologies (PETs), making it more applicable to understanding user adoption in security and privacy contexts. Additionally, it is among the first to empirically test these constructs in a real-world trial, providing valuable insights into the factors that influence the acceptance of anonymous credentials in practical scenarios [@benenson2014user; @soups]. 
 
