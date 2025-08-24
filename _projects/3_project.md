@@ -5,13 +5,14 @@ description: Assessing Trustworthiness of data and actors in Cooperative, connec
 img: assets/img/CONNECT-Logo-4C-q.png
 importance: 4
 category: work
+related_publications: icics25, ifip23, 5gaa2024_trust_cav
 ---
 
 - **Project Name:** CONNECT – Continuous and Efficient Cooperative Trust Management for Resilient CCAM  
 - **Duration:** September 2022 – August 2025
-- **Links:** [Project website](https://horizon-connect.eu/) • [CORDIS entry](https://cordis.europa.eu/project/id/101069688) • [CCAM Association project page](https://www.ccam.eu/projects/connect/)  [oai_citation:7‡Horizon Connect](https://horizon-connect.eu/) [oai_citation:8‡CORDIS](https://cordis.europa.eu/project/id/101069688/results?utm_source=chatgpt.com) [oai_citation:9‡CCAM](https://www.ccam.eu/projects/connect/?utm_source=chatgpt.com)  
+- **Links:** [Project website](https://horizon-connect.eu/) • [CORDIS entry](https://cordis.europa.eu/project/id/101069688) • [CCAM Association project page](https://www.ccam.eu/projects/connect/)  
 - **Funding:** Horizon Europe (Grant 101069688), €5.66M  
-- **Programme & call:** Funded under **Horizon Europe — CCAM (Cluster 5)**, topic group **HORIZON-CL5-2021-D6-01 (Cyber-secure & resilient CCAM)**.  [oai_citation:4‡Horizon Connect](https://horizon-connect.eu/) [oai_citation:5‡European Commission](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2021-d6-01-01)  
+- **Programme & call:** Funded under **Horizon Europe — CCAM (Cluster 5)**, topic group **HORIZON-CL5-2021-D6-01 (Cyber-secure & resilient CCAM)**. 
 - **Consortium:** 16 partners across 8 countries (Coordinator: TECHNIKON; core partners include UBITECH, University of Ulm, Huawei Technologies Duesseldorf GmbH)  
 - **My Role:** Project Proposal Author & Internal Project Manager for Huawei  
 
@@ -25,6 +26,8 @@ The cornerstone of the CONNECT project is its Trust Assessment Framework (TAF), 
 
 * Dynamic Trust Models: CONNECT’s Trust Model Manager (TMM) builds dynamic trust models that capture and maintain multiple trust relationships among different data sources and entities. These models adapt to real-time changes, ensuring that trust assessments remain relevant throughout system operation.
 * Evidence-Based Trust Evaluation: The Trust Level Evaluation Engine (TLEE) leverages observable evidence and referral-based relationships to dynamically evaluate the trustworthiness of data sources and observations. This probabilistic approach ensures robust and accurate trust assessments, even under changing network and operational conditions.
+
+More information can be found in our papers {% cite icics25 %}, {% cite ifip23 %}, and {% cite 5gaa2024_trust_cav %}, as well as [CONNECT Deliverables](https://horizon-connect.eu/public-deliverables/).
 
 ### Runtime Monitoring and Trust-Based Security Claims
 
