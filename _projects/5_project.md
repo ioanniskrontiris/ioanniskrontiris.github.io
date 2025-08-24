@@ -14,8 +14,7 @@ related_publications:
 
 - **Project Name:** V2X-DAA — DAA-enabled Security for Cooperative, Connected & Automated Mobility (CCAM)  
 - **Duration:** 2022–2023 *(internal bilateral R&D)*  
-- **Funding:** Bilateral industry collaboration (Huawei Technologies Europe – UBITECH)  
-- **Consortium:** Huawei Technologies Düsseldorf GmbH (European Research Center, Munich), UBITECH (Digital Security & Trusted Computing Group, Athens)  
+- **Funding:** Bilateral industry collaboration (with UBITECH)   
 - **Links:** [UBITECH announcement](https://ubitech.eu/ubitech-has-been-awarded-a-research-grant-on-v2x-communication-security-from-a-multinational-technology-company/)
 - **My Role:** Co-PI / Technical lead for architecture & evaluation
 
@@ -59,4 +58,3 @@ We designed a V2X security architecture that anchors trust **in the vehicle**:
 - **Privacy by design:** Unlinkable, on-device credentials minimize tracking risk while preserving verifiability. {% cite wisec21 %}
 - **Operational security:** A **device kill-switch** for misbehavior (hard revoke) with immediate effect, without revealing or resolving long-term identity. {% cite wisec21 %}
 
-**Publications:** Positioning & motivation {% cite krontiris2019ares %} • Revocation protocol & TPM design {% cite wisec21 %} • Experimental head-to-head PKI vs DAA {% cite vnc2023 %}
