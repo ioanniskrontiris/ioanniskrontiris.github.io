@@ -12,7 +12,7 @@ giscus_comments: false
 - **Duration:** October 2021 – June 2022
 - **Funding:** EU H2020, NGI eSSIF-Lab (Cascading Grant)  
 - **Consortium:** UBITECH (Greece), Huawei Research Munich (Germany), Verifiable Credentials Ltd (UK)  
-- **Role:** Proposal Author & Project Partner   
+- **Role:** Project Proposal Author & Project Partner   
 
 ---
 

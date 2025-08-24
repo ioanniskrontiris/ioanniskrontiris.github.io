@@ -5,14 +5,14 @@ description: Achieving Higher Level of Assurance in Privacy Preserving Identity 
 img: assets/img/EUDIselectivedisclosure.png
 importance: 1
 category: work
-related_publications: 10538525
+related_publications: Prive2024_10538525
 ---
 
-**Project Name:** PRIVÉ – Achieving Higher Level of Assurance in Privacy-Preserving Identity Wallets  
-**Duration:** October 2023 – April 2024  
-**Funding:** Sub-grantee of [TrustChain](https://trustchain.ngi.eu/) (Open Call 1 – Decentralised Digital Identity)  
-**Consortium:** [UBITECH Ltd](https://www.ubitech.eu) and [Homo Digitalis](https://homodigitalis.gr/en/)  
-**My Role:** Proposal Author & Project Partner  
+- **Project Name:** PRIVÉ – Achieving Higher Level of Assurance in Privacy-Preserving Identity Wallets  
+- **Duration:** October 2023 – April 2024  
+- **Funding:** Sub-grantee of [TrustChain](https://trustchain.ngi.eu/) (Open Call 1 – Decentralised Digital Identity)  
+- **Consortium:** [UBITECH Ltd](https://www.ubitech.eu) and [Homo Digitalis](https://homodigitalis.gr/en/)  
+- **My Role:** Project Proposal Author & Project Partner  
 
 ---
 
@@ -41,6 +41,7 @@ PRIVÉ has added an extra layers of security on top of DAA-A by constructing pol
 * One such policy ensures the binding of the DAA Key to the Holder's authenticated Wallet, which in turn enables the binding of the issued identity data to the Holder as the intended recipient. This is done by the VC Issuer through binding issued attributes to the anonymized part of the DAA credential.  
 * An additional policy binds the use of the DAA Key with the configuration of the wallet, so that it can be used if and only if the Wallet software integrity has not been altered in an unauthenticated manner. 
 
+More details can be found in our paper [@Prive2024_10538525].
 
 ## Implementation: The Trusted Component (TC) Bridge
 

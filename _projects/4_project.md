@@ -5,7 +5,7 @@ description: FP7 project - A unified architecture for Anonymous Credentials
 img: assets/img/abc4trust_logo.png
 importance: 5
 category: work
-related_publications: 10538525, apf
+related_publications: Prive2024_10538525, apf
 ---
 
 [ABC4Trust](http://abc4trust.eu/) was a project that received research funding from the 7th Research Framework Program (FP7) of the  EU as part of the Trust & Security Program. 
