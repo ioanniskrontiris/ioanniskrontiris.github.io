@@ -16,7 +16,7 @@ related_publications:
 - **Duration:** 2022–2023 *(internal bilateral R&D)*  
 - **Funding:** Bilateral industry collaboration (with UBITECH)   
 - **Links:** [UBITECH announcement](https://ubitech.eu/ubitech-has-been-awarded-a-research-grant-on-v2x-communication-security-from-a-multinational-technology-company/)
-- **My Role:** Co-PI / Technical lead for architecture & evaluation
+- **My Role:** Project Initiator / Technical lead for architecture & evaluation
 
 ---
 
