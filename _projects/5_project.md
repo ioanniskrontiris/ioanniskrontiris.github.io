@@ -13,7 +13,7 @@ related_publications:
 
 
 - **Project Name:** V2X-DAA — DAA-enabled Security for Cooperative, Connected & Automated Mobility (CCAM)  
-- **Duration:** 2022–2023 *(internal bilateral R&D)*  
+- **Duration:** January 2021 – March 2022 
 - **Funding:** Bilateral industry collaboration (with UBITECH)   
 - **Links:** [UBITECH announcement](https://ubitech.eu/ubitech-has-been-awarded-a-research-grant-on-v2x-communication-security-from-a-multinational-technology-company/)
 - **My Role:** Project Initiator / Technical lead for architecture & evaluation
