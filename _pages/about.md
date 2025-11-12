@@ -28,7 +28,7 @@ An overview of my current and past positions:
 
 My expertise lies in bridging advanced technology innovations with industrial practice in cybersecurity, with a focus on trust, identity, privacy, and resilience.  
  
-- **Applied Industrial Cybersecurity R&D:** Design and validation of trust, identity, and privacy in industrial systems (OT/ICS, IoT/edge, connected vehicles, 5G/6G and agentic AI systems). Focus on dynamic trust management, privacy enhancing technologies, trusted computing, secure digital identity, and deployable architectures that reach pilots and production.
+- **Applied Cybersecurity R&D:** Design and validation of trust, identity, and privacy in different domains (IoT/Edge, Connected Vehicles, 5G/6G and Agentic AI systems). Focus on dynamic trust management, privacy enhancing technologies, trusted computing, secure digital identity, and deployable architectures based on zero trust principles that reach pilots and production.
 
 - **Strategic Project & Innovation Management:** Proven track record in initiating and leading large European and bilateral industry–academia projects, from proposal design and consortium building to delivery of innovative security solutions aligned with real-world requirements.  
 
