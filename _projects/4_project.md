@@ -47,7 +47,7 @@ Anonymous credentials provide a solution that satisfy the above properties. They
 
 Both solutions implement selective disclosure using their underlying cryptographic primitives. The development of U-Prove and Idemix resulted in the ABC4Trust project that brought together both technologies and aimed to define a unified architecture for federating and interchanging different cryptographic primitivies to implement anonymous credentials. Both Idemix and U-Prove were integrated into its architecture {% cite bichsel2015architecture %}.
 	
-### Waht ABC4Trust achieved
+### What ABC4Trust achieved
 
 The ABC4Trust project achieved several key milestones in its efforts to enhance privacy and identity protection on the Internet through the use of cryptographic technologies:
 
@@ -60,3 +60,11 @@ The ABC4Trust project achieved several key milestones in its efforts to enhance 
 4. **Interoperability of Technologies**: ABC4Trust contributed to standardization efforts by aligning with relevant ISO/IEC projects and contributing to drafts such as ISO/IEC 29101 (Privacy Architecture Framework) and ISO/IEC 29191 (Requirements for partially anonymous, partially unlinkable authentication). It also developed a metrics framework for comparing different ABC systems. This framework helps in assessing and ensuring the compatibility and interoperability of various ABC technologies {% cite apf %}.
 
 5. **New Technology Adoption Model for PETs**: ABC4Trust was the first project to study the factors influencing adoption of PETs by end-users. It extended the traditional Technology Acceptance Model (TAM) and tailored it for privacy-enhancing technologies (PETs), making it more applicable to understanding user adoption in security and privacy contexts. Additionally, it is among the first to empirically test these constructs in a real-world trial, providing valuable insights into the factors that influence the acceptance of anonymous credentials in practical scenarios {% cite benenson2014user %}, {% cite soups %}.
+
+### Impact on Standardization and Policy Frameworks
+
+ABC4Trust produced structured standardization-facing outputs that connected cryptographic anonymous credential systems with international privacy and identity standards, most notably within ISO/IEC JTC 1/SC 27.
+
+The project delivered dedicated standardization deliverables that mapped attribute-based credential systems to ISO/IEC privacy and identity frameworks, with particular focus on architectural viewpoints, actors, and control objectives. This work provided concrete input to the development and refinement of the [ISO/IEC 29101 Privacy Architecture Framework](https://www.iso.org/standard/45124.html), clarifying how privacy-by-design properties such as minimal disclosure, unlinkability, and separation of issuance and usage can be realized through cryptographic mechanisms rather than policy-only controls.
+
+ABC4Trust also contributed to ISO/IEC discussions on partially anonymous and partially unlinkable authentication, influencing requirements captured in identity management work under ISO/IEC JTC 1/SC 27/WG 5. The project’s analysis explicitly addressed how authentication strength, assurance, and accountability can coexist with anonymity and pseudonymity, providing architectural guidance for identity systems that do not rely on persistent identifiers.
