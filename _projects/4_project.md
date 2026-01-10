@@ -16,6 +16,7 @@ related_publications:
   - apf
   - h2.1
   - d2.1
+  - abc4trust-d8.12
 ---
 
 - **Project Name:** ABC4Trust – Attribute-based Credentials for Trust  
