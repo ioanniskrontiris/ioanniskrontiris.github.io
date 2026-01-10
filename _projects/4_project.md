@@ -6,6 +6,7 @@ img: assets/img/abc4trust_logo.png
 importance: 6
 category: work
 related_publications:
+  - abc4trust-d8.12
   - trustbus
   - bichsel2015architecture
   - benenson2014user
@@ -15,7 +16,6 @@ related_publications:
   - soups
   - h2.1
   - d2.1
-  - abc4trust-d8.12
   - apf
 ---
 
