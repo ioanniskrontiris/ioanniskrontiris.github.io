@@ -13,10 +13,10 @@ related_publications:
   - sabouri2014trust
   - stamatiou2015course
   - soups
-  - apf
   - h2.1
   - d2.1
   - abc4trust-d8.12
+  - apf
 ---
 
 - **Project Name:** ABC4Trust – Attribute-based Credentials for Trust  
