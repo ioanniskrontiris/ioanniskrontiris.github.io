@@ -48,7 +48,26 @@ nav_order: 4
 *   Presentation, "Participatory Sensing: New Opportunities and Privacy Challenges", Practical Aspects of Security (PRACSE 2010), 14-15 October 2010, Athens, Greece
 *   Presentation, "Security in Wireless Sensor Networks", [Summer School: Wireless Sensor Networks and Smart Objects](https://www.dagstuhl.de/05352), Aug 28 – Sep 03, 2005, Dagstuhl, Germany
 
+### Standardization Activities
 
+* **IETF (RATS):** Co-author of the Internet-Draft **[draft-rats-runtime-tpr](https://datatracker.ietf.org/doc/draft-rats-runtime-tpr/)** on runtime trust assessment and monitoring.
+
+* **5GAA (pre-standardization, WG7):** Security/Privacy trust work in 5GAA with downstream feedback to SDOs (ETSI/3GPP) through concrete work items and white papers, including:
+  * **Trust4Auto** – **[Creating Trust in Connected and Automated Vehicles (web page)](https://5gaa.org/creating-trust-in-connected-and-automated-vehicles/)** and **[PDF](https://5gaa.org/content/uploads/2024/05/5gaa-trust4auto-white-paper-2024.pdf)**.
+  * **Trust4CAV** – **[A Framework for Dynamic Trustworthiness Assessment in Cooperative and Automated Vehicles (web page)](https://5gaa.org/a-framework-for-dynamic-trustworthiness-assessment-in-cooperative-and-automated-vehicles/)** and **[PDF](https://5gaa.org/content/uploads/2025/08/5gaa-wi-trust4cav-white-paper-10072025-v3.pdf)**.
+  * **gMEC4AUTO (Cybersecurity for Edge Computing)** – **[web page](https://5gaa.org/cybersecurity-for-edge-computing/)** and **[PDF](https://5gaa.org/content/uploads/2023/04/gmec4auto-cybersecurity-for-edge-computing.pdf)**.
+  * **Efficient Security Provisioning System (ESPS)** defining an optimized, privacy-preserving PKI architecture for large-scale deployments, addressing bootstrapping, certificate provisioning, trust anchor management, and revocation efficiency, with explicit alignment to ETSI ITS security standards (TS 102 940 / 102 941):  
+  https://5gaa.org/content/uploads/2020/05/5GAA_Efficient_Security_Provisioning_System_White_Paper.pdf  [oai_citation:0‡5GAA_E-200017_ESPS_White_Paper_Final33323-ed-out.pdf](sediment://file_00000000b9207246bff1c62b8e09de60)
+
+
+* **ETSI TC ITS (trust/PKI baseline):** Alignment with ETSI trust & privacy management for ITS PKI, e.g. **[ETSI TS 102 941 (v2.2.1)](https://www.etsi.org/deliver/etsi_ts/102900_102999/102941/02.02.01_60/ts_102941v020201p.pdf)**.
+
+* **DIF (Wallet Security):** Monitoring and implementation-driven feedback into ecosystem work on wallet assurance topics such as device/holder binding via **[DIF Wallet Security WG](https://github.com/decentralized-identity/wallet-security?tab=readme-ov-file)** and the **[Device Binding work item](https://github.com/decentralized-identity/wallet-security/blob/main/work_items/device_binding.md)**.
+
+* **CEN/CENELEC JTC 21 (AI standardization):** Participation in the European AI standardization landscape via **[CEN/CENELEC JTC 21](https://jtc21.eu/)** and its working-group structure **[Working Groups](https://jtc21.eu/working-groups/)** (incl. AI trustworthiness scope in WG4).
+
+* **ISO/IEC JTC 1 / SC 27 / WG 5 (Identity management & privacy technologies):** Through the EU FP7 project **ABC4Trust**, contributed structured technical input to identity and privacy standardization efforts, including architectural mappings and proposed refinements to **ISO/IEC 24760-2** (identity management reference architecture), and detailed alignment with **ISO/IEC 29101 – Privacy Architecture Framework** and analysis toward **ISO/IEC 29191** (anonymous, unlinkable authentication), see **[D8.4 Architecture for Standardization](https://cordis.europa.eu/docs/projects/cnect/2/257782/080/deliverables/001-d84architectureforstandardizationv1.pdf)** deliverable.
+  
 ### Committees
 
 #### Chair
