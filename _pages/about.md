@@ -34,6 +34,6 @@ My expertise lies in bridging advanced technology innovations with industrial pr
 
 - **Technology & Policy Thought Leadership:** Regularly contribute to international discussions on secure digital identity, AI trustworthiness, and mobility security; invited as keynote speaker, panelist, and expert to shape global research and policy agendas.  
 
-- **Standards & Ecosystem Influence:** Active contributor to international standards development (IETF, ETSI, 5GAA, ISO/SAE), ensuring that research outcomes translate into actionable protocols and architectures with industry-wide adoption.  
+-  **Standards Contribution & Leadership:** Standards-facing security and identity architect, translating research and deployment realities into implementable specifications across IETF, ETSI, ISO/IEC, CEN/CENELEC, and ecosystem fora. Active in runtime trust and attestation (IETF RATS), trust and PKI frameworks, privacy and identity architectures, and AI trustworthiness, with leadership roles in pre-standardization (e.g., 5GAA WG7 co-chair) and formal participation in European AI standardization (CEN/CENELEC JTC 21 WG4 via DIN).
 
-- **Teaching, Mentorship & Talent Development:** Experience in teaching at university level (Bachelor and Master), supervising PhD and MSc theses, and coaching young researchers — fostering next-generation expertise in AI security, trust, and privacy technologies.  
+- **Teaching, Mentorship & Talent Development:** Experience in teaching at university level (Bachelor and Master), supervising PhD and MSc theses, and coaching young researchers, fostering next-generation expertise in AI security, trust, and privacy technologies.  
