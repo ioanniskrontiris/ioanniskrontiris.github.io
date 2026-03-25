@@ -119,7 +119,6 @@ nav_order: 4
 *   IEEE ICC 2017 Communication and Information Systems Security Symposium ([ICC'17 CISS](http://icc2017.ieee-icc.org/cfp)), Paris, France, 21-25 May 2017
 *   The 11th International Conference on Distributed Computing in Sensor Systems ([DCOSS 2015](http://www.dcoss.org/index.php)), Fortaleza, CE, Brazil, 10-12 June 2015   
 *   The 5th International Workshop on Resilience and IT-Risk in Social Infrastructures (RISI 2015) part of [ARES 2015](http://www.ares-conference.eu/conference/), Toulouse, France, 24-28 August 2015  
-    
 *   The 2015 IEEE Global Communications Conference ([GLOBECOM 2015](http://globecom2015.ieee-globecom.org/)), San Diego, CA, USA, 6-10 December 2015
 *   The IEEE International Conference on Communications ([ICC 2015](http://icc2015.ieee-icc.org/)) - Communications and Information Systems Security Symposium, London, UK, 8-12 June 2015
 *   The [9th International IFIP Summer School](http://ifip2014.cti.gr/) on Privacy and Identity Management for the Future Internet in the Age of Globalisation, Patras, Greece, 7-12 September, 2014
