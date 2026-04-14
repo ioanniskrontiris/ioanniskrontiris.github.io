@@ -13,12 +13,10 @@ profile:
 news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
----
-
-I am currently working as Technical Manager R&D Europe at the [European Research Center](http://www.huawei.eu/research-and-innovation) of Huawei in Munich, Germany.   
+--- 
 
 I hold a Ph.D. Degree in Computer Science from [University of Mannheim](http://www.uni-mannheim.de/1/english/) in Germany, and a M.Sc. Degree in Information Technology from [Carnegie Mellon University](http://www.ini.cmu.edu/) in USA.  
-An overview of my current and past positions:
+An overview of my past positions:
 
 * Technical Manager R&D Europe - Security, Privacy Trust at the [European Research Center](http://www.huawei.eu/research-and-innovation) of [Huawei Technologies](https://www.huawei.com/en/) in Munich, Germany
 * Senior Researcher & Project Manager – Privacy Technology at [Goethe University Frankfurt, Germany](http://www.uni-frankfurt.de/en)
