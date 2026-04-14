@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D, Senior Researcher at Huawei Technologies
+subtitle: Ph.D, Senior Researcher 
 
 profile:
   align: right
