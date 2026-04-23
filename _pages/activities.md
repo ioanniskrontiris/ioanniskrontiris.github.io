@@ -21,7 +21,7 @@ nav_order: 4
 *   Presentation "Extending Trusted Path Routing: Dynamic Trust Evaluation with Runtime Evidence", [IETF 123](https://www.ietf.org/meeting/123/) - RATS, Madrid, Spain, 25 July 2025.
 *   Panel Presentation "Trusted Path Routing & Path Validation for Beyond 5G Networks", [2025 EuCNC & 6G Summit](https://www.eucnc.eu/2025/www.eucnc.eu/), Poznan, Poland, 4 June 2025
 *   Panel Presentation "AI Trustworthiness in 6G", [CONNECT AI Trustworthiness Workshop](https://horizon-connect.eu/workshop-on-trustworthy-ai-2/), Frankfurt, Germany, 25-26 March 2025
-*   Panel Presentation "AI Security and Trustworthiness: Technical and Societal Views", [Trust in Digital Life](https://trustindigitallife.eu/event/secure-trustworthy-of-ai-applications/), online, 14 February 2025
+*   Panel Presentation "Edge and 6G: Cybersecurity Challenges", [Trust in Digital Life](https://trustindigitallife.eu/event/edge-6g-and-multi-edge-computing-mec/), online, 20 February 2025
 *   Panel Presentation "Towards Trust-Aware Automotive Task Offloading", [ETSI MEC - Cybersecurity at the Edge](https://mecwiki.etsi.org/index.php?title=Cybersecurity_at_the_Edge), Athens, Greece, 10 December 2024
 *   Presentation "Inputs by Cluster 5 "KET" to Large-scale Demonstrations", [CCAM Association Multicluster Meeting](https://www.ccam.eu/october-ccam-multicluster-meeting-checkpoint-for-the-ccam-partnership/), Brussels, Belgium, 10 October 2024
 *   Panel Presentation "CONNECT: Continuous and Efficient Cooperative Trust Management for Resilient CCAM", [European Conference on the Results from Road Transport Research (RTR Conference 2024)](https://rtrconference.eu/rtr-2024/), Brussels, Belgium, 5-7 February 2024
