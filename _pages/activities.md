@@ -75,11 +75,11 @@ nav_order: 4
 
 #### Advisory and Volunteering Activities  
 
-*   Member of the 5G Automotive Association ([5GAA](http://5gaa.org/)) Security and Privacy WG7 (June 2018 - present)
+*   Member of the 5G Automotive Association ([5GAA](http://5gaa.org/)) Security and Privacy WG7 (June 2018 - October 2026)
 *   Member of [Homo Digitalis](https://www.homodigitalis.gr/), Digital Rights NGO in Greece (Oct 2019 - present)   
 *   Member of the experts' panel at the EU Commission's Stakeholder Group on the implementation of a "[Regulation on electronic identification and trust services](http://ec.europa.eu/dgs/connect/en/content/electronic-identification-and-trust-services-regulatory-environment)", Brussels, 25 September 2013.
 *   Invited Expert - [First plenary meeting](http://ec.europa.eu/digital-agenda/en/news/nis-platform-kick-meeting-working-groups) of the Public-Private Platform on Network and Information Security ([NIS Platform](https://resilience.enisa.europa.eu/nis-platform)), European Commission, Brussels, 17 June 2013.
-*   Member of [Task Force 3 "Big Data and Data Minimization"](http://www.identity-tower.com/task-forces/task-force-3-big-data) of the "IDENTITY | Talk in the Tower" initiative of Giesecke & Devrient (since June 2013).
+*   Member of [Task Force 3 "Big Data and Data Minimization"](http://www.identity-tower.com/task-forces/task-force-3-big-data) of the "IDENTITY, Talk in the Tower" initiative of Giesecke & Devrient (since June 2013).
 *   Member of ENISA Experts Group in "Internet of Things, Ubiquitous environments" and "Electronic identity" (2013-2015).
 *   Member of the Expert Panel - EU Project TAS3 (Trusted Architecture for Securely Shared Services), 17-18 November 2011, Nice, France.
 *   Invited Expert - Stakeholder Workshop on "Digital Agenda for Europe: Electronic identification, authentication and signatures in the digital single market", 25 September 2013, 10 March 2011 and 3 October 2011.
