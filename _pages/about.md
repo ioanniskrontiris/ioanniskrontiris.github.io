@@ -14,7 +14,7 @@ news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 --- 
-I am a Professor of Cybersecurity at [HDBW – Hochschule der Bayerischen Wirtschaft](https://www.hdbw-hochschule.com/) in Munich, Germany. I teach in the M.Sc. Cyber Security programme and doing research in the broad area of Digital Trust, especially Trustworthy AI, Governance of Agentic Identities, and Digital Identity Wallets. In parallel, I contribute to international security standardization and to European research projects.
+I am a Professor of Cybersecurity at [HDBW – Hochschule der Bayerischen Wirtschaft](https://www.hdbw-hochschule.com/) in Munich, Germany. I teach in the M.Sc. Cyber Security programme and doing research in the broad area of Digital Trust, especially Trustworthy AI, Dynamic Trust Assessment, Governance of Agentic Identities, and Digital Identity Wallets. In parallel, I contribute to international security standardization and to European research projects.
 
 I hold a Ph.D. Degree in Computer Science from [University of Mannheim](http://www.uni-mannheim.de/1/english/) in Germany, and a M.Sc. Degree in Information Technology from [Carnegie Mellon University](http://www.ini.cmu.edu/) in USA.  
 An overview of my past positions:
