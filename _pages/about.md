@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D, Senior Researcher 
+subtitle: Ph.D, Professor 
 
 profile:
   align: right
@@ -14,6 +14,7 @@ news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 --- 
+I am a Professor of Cybersecurity at [HDBW – Hochschule der Bayerischen Wirtschaft](https://www.hdbw-hochschule.com/) in Munich, Germany. I teach in the M.Sc. Cyber Security programme and doing research in the broad area of Digital Trust, especially Trustworthy AI, Governance of Agentic Identities, and Digital Identity Wallets. In parallel, I contribute to international security standardization and to European research projects.
 
 I hold a Ph.D. Degree in Computer Science from [University of Mannheim](http://www.uni-mannheim.de/1/english/) in Germany, and a M.Sc. Degree in Information Technology from [Carnegie Mellon University](http://www.ini.cmu.edu/) in USA.  
 An overview of my past positions:
@@ -26,12 +27,12 @@ An overview of my past positions:
 
 My expertise lies in bridging advanced technology innovations with industrial practice in cybersecurity, with a focus on trust, identity, privacy, and resilience.  
  
-- **Applied Cybersecurity R&D:** Design and validation of trust, identity, and privacy in different domains (IoT/Edge, Connected Vehicles, 5G/6G and Agentic AI systems). Focus on dynamic trust management, privacy enhancing technologies, trusted computing, secure digital identity, and deployable architectures based on zero trust principles that reach pilots and production.
+- **Applied Cybersecurity R&D:** Design and validation of trust, identity, and privacy in different domains (IoT/Edge, Connected Vehicles, 5G/6G and Agentic AI systems). Focus on trustworthy AI, dynamic trust management, privacy enhancing technologies, trusted computing, secure digital identity, and deployable architectures based on zero trust principles that reach pilots and production.
 
 - **Strategic Project & Innovation Management:** Proven track record in initiating and leading large European and bilateral industry–academia projects, from proposal design and consortium building to delivery of innovative security solutions aligned with real-world requirements.  
 
-- **Technology & Policy Thought Leadership:** Regularly contribute to international discussions on secure digital identity, AI trustworthiness, and mobility security; invited as keynote speaker, panelist, and expert to shape global research and policy agendas.  
+- **Technology & Policy Thought Leadership:** Regularly contribute to international discussions on secure digital identity, Trustworthy AI, and mobility security; invited as keynote speaker, panelist, and expert to shape global research and policy agendas.  
 
 -  **Standards Contribution & Leadership:** Standards-facing security and identity architect, translating research and deployment realities into implementable specifications across IETF, ETSI, ISO/IEC, CEN/CENELEC, and ecosystem fora. Active in runtime trust and attestation (IETF RATS), trust and PKI frameworks, privacy and identity architectures, and AI trustworthiness, with leadership roles in pre-standardization (e.g., 5GAA WG7 co-chair) and formal participation in European AI standardization (CEN/CENELEC JTC 21 WG4 via DIN).
 
-- **Teaching, Mentorship & Talent Development:** Experience in teaching at university level (Bachelor and Master), supervising PhD and MSc theses, and coaching young researchers, fostering next-generation expertise in AI security, trust, and privacy technologies.  
+- **Teaching, Mentorship & Talent Development:** Experience in teaching at university level (Bachelor and Master), supervising PhD and MSc theses, and coaching young researchers, fostering next-generation expertise in Trustworthy AI, Cybersecurity, and Privacy-Enhancing Technologies.  
