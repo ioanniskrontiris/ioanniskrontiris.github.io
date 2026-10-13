@@ -22,8 +22,6 @@ Identity fraud at borders is getting more sophisticated. Faces in passports are 
 
 The project's answer has two parts. Travellers carry a verifiable digital version of their travel document in an identity wallet. Border authorities get a set of AI-based attack detectors whose outputs are fused into one explainable risk assessment. The goal is a border crossing where honest travellers barely stop, and officers spend their attention where the evidence says it is needed.
 
-UBITECH led the work package on improved identification of citizens. This covered the identity wallet, the verifiable data registry, multi-biometric fusion and the explainable-AI recommendation engine. I worked with the UBITECH team, led by Thanassis Giannetsos, on the architecture and technical design of these components (deliverable D3.2), and on the review of the attack-detection work.
-
 ### Two kinds of trust at the border
 
 A border check has to answer two different questions.
