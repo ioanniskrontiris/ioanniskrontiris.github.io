@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Projects I am involved in.
+description: European Research Projects I have been involved in as a contributor or coordinator. Common denominator is Digital Trust, especially Trustworthy AI, Dynamic Trust Assessment, Governance of Agentic Identities, and Digital Identity Wallets. 
 nav: true
 nav_order: 3
 display_categories: [work]
