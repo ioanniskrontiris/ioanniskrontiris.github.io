@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CASTOR
-description: Continuum of Trust - Increased Path Agility and Trustworthy Device and Service Provisioning
+description: Horizon Europe Project - Continuum of Trust, Increased Path Agility and Trustworthy Device and Service Provisioning
 img: assets/img/CASTOR_logo.png
 importance: 3
 category: work

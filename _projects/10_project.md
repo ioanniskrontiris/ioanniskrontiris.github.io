@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SafeTravellers
-description: Trustworthy digital identity and explainable AI decision support at Europe's borders
+description: Horizon Europe Project - Trustworthy digital identity and explainable AI decision support at Europe's borders
 img: assets/img/SafeTravellers_logo.png
 importance: 1.5
 category: work

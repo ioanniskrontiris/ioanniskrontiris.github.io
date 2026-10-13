@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CONNECT
-description: Assessing Trustworthiness of data and actors in Cooperative, connected and automated mobility (CCAM)
+description: Horizon Europe Project - Assessing Trustworthiness of data and actors in Cooperative, connected and automated mobility (CCAM)
 img: assets/img/CONNECT-Logo-4C-q.png
 importance: 4
 category: work
