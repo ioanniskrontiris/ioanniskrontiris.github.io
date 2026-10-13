@@ -33,27 +33,32 @@ A border check has to answer two different questions.
 
 SafeTravellers treats both as first-class design problems. Neither is allowed to rely on assumed trust. Every actor and every piece of evidence is verified, in the spirit of zero trust.
 
-### The identity layer: wallet, attestation and registry
+### The identity layer: a wallet you can trust, and a registry that says whom to trust
 
-The journey has three phases. A government issues the travel document. Before the trip, the traveller enrols: the Digital Travel Credential (DTC) is extracted, checked against biometrics, and turned into a verifiable credential plus a travelling token. At the border, the wallet presents only what the border policy requires.
+<img src="/assets/img/SafeTravellers_identity_architecture.png" width="750">
 
-* **EUDI-aligned identity wallet.** The wallet follows the eIDAS 2.0 implementing acts and the EUDI Architecture and Reference Framework. Its core is a **Crypto Agility Layer** that supports two credential schemes: hash-based selective disclosure (SD-JWT) and BBS signatures, which allow unlinkable, zero-knowledge presentations. The scheme can change without redesigning the wallet.
-* **Hardware-bound keys and proof of wallet integrity.** Holder keys live in a hardware root of trust. Attestation services prove that presentations come from the legitimate holder and from a wallet whose software is intact. This continues the line of work we started in [PRIVÉ](/projects/1_project/) {% cite Prive2024_10538525 %}.
-* **Verifiable Data Registry.** A decentralised registry records trusted issuers and verifiers, credential schemas, revocation and travel policies. Trust in an issuer or a verifier is checked at each transaction, not assumed once. The wallet retrieves the verifier's policy and enforces locally what may be disclosed.
-* **European Multi-Biometric Data Space.** Each Member State keeps the biometric data of its own nationals. Cross-border identity checks run without moving or revealing raw biometric data.
+The journey has three steps. The wallet reads the passport chip and receives a Digital Travel Credential. Before the trip, the traveller enrols and receives a travel token. At the border, the traveller taps the wallet at the eGate and walks through.
 
-### The AI layer: fusing detector evidence into an explainable decision
+The wallet follows eIDAS 2.0 and the EUDI Architecture and Reference Framework. Three properties make it trustworthy:
 
-At enrolment and at the border, several detectors examine the traveller: morphing detection, look-alike detection, makeup-attack detection, face verification and biometric matching against the data space. Each produces its own score. The officer needs one assessment, and needs to know why.
+* **Keys locked in hardware.** Every credential is bound to keys inside the phone's secure hardware. A copied credential is useless. This continues the line of work we started in [PRIVÉ](/projects/1_project/) {% cite Prive2024_10538525 %}.
+* **Show only what's needed.** The wallet discloses only the attributes a policy asks for. Single-use credentials, each with its own hardware key, stop colluding verifiers from linking presentations. The final version uses ISO mDL, which border eGates already support, also offline.
+* **Proof the wallet is untampered.** Attestation evidence travels with each presentation. Runtime checks at random times also protect the attestation itself against time-of-check/time-of-use attacks.
+
+The **trust registry** is the other half. It is built on a blockchain and curated by governmental bodies. It answers three questions: who may issue, who may verify, and what a traveller must show for a given trip. Travel rules live there as machine-readable policies, so a new rule changes one policy and not every system. A compliance token records the checks passed at enrolment; it is burned after the crossing, so no trace of the trip stays on chain.
+
+The **European Multi-Biometric Data Space** completes the picture. Each Member State keeps the biometric data of its own nationals. Cross-border checks run without moving raw biometric data.
+
+### The AI layer: one auditable score, explained
 
 <img src="/assets/img/SafeTravellers_decision_pipeline.png" width="750">
 
-The final design rests on a few deliberate choices.
+Five detectors examine the traveller: morphing, look-alike, makeup, face match and biometric match. Each gives its own score. The officer needs one assessment, and needs to know why.
 
-* **Decision authority stays with an auditable model.** All detector outputs are normalised to a common risk scale. A deterministic, expert-calibrated fusion engine then computes the risk score. The same inputs always give the same output. Every score decomposes exactly into the contribution of each detector.
-* **Machine learning explains; it does not decide.** A surrogate model is trained to mimic the fusion engine. SHAP is applied to the surrogate to show which signals are unusual for this specific traveller. A fidelity monitor compares surrogate and engine continuously. If they diverge, an alert is raised and explanations fall back to the exact decomposition.
-* **Why not a learned classifier?** Real attack data at borders are scarce. Classifiers trained on synthetic attack data looked good on synthetic tests but proved brittle on real pilot inputs. Moving the learning task from "decide" to "mimic a known function" removed that problem.
-* **Graded output, graded autonomy.** The system returns a risk score and the most likely attack type, not a yes/no. At pre-enrolment it drives the automated issuance of the travelling token, with flagged cases sent to a manual check. At the border it is decision support only; the officer decides. The same fusion logic runs in both settings, so a traveller is assessed consistently.
+* **One auditable score.** The detector outputs are fused by a deterministic, expert-calibrated engine. The same evidence always gives the same result. Every score splits exactly into the contribution of each detector.
+* **A shadow model explains it; it does not decide.** A machine-learning model is trained to mimic the score. SHAP on this shadow model shows which signals stand out for this traveller. It is always checked against the real score. If the two drift apart, an alert is raised and the exact contributions are shown instead.
+* **Why not let a classifier decide?** Real attack data at borders are scarce. Classifiers trained on synthetic attacks looked good in tests but were brittle on real pilot inputs. Learning to mimic a known function avoids that trap.
+* **The officer decides.** The output is a graded risk and the most likely attack, not a yes/no. At enrolment it drives the automated token issuance, and flagged cases go to a manual check. At the border it only supports the officer.
 
 ### What I take from SafeTravellers
 
